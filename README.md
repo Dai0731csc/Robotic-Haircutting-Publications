@@ -1,4 +1,4 @@
-# Robotic Haircutting Publications
+# Robotic Haircutting
 
 This repository serves primarily as an encyclopedia-style overview of robotic haircutting, covering background, history, safety, applications, challenges, and references. Team publications collected in this repository are listed at the end.
 
