@@ -1,33 +1,6 @@
 # Robotic Haircutting Publications
 
-This repository collects publications and background notes related to robotic haircutting.
-
-## Our Team's Work
-
-This repository highlights our team's research contributions on robotic haircutting, including foundational studies, safety-oriented work, system surveys, and forward-looking position papers.
-
-[Jump to Publications](#publications)
-
-Featured topics include:
-
-- Haircutting robot foundations and theory
-- Safety in robotic haircutting
-- System-level surveys and technical challenges
-- Vision-language-action directions for intelligent haircutting robots
-
-## Publications
-
-### 2025
-
-- [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Li Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
-- [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
-
-### 2026
-
-- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
-- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
-- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
+This repository serves primarily as an encyclopedia-style overview of robotic haircutting, covering background, history, safety, applications, challenges, and references. Team publications collected in this repository are listed at the end.
 
 ## Overview
 
@@ -109,13 +82,23 @@ Additional challenges include long-duration operation, affordability, certificat
 - Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021.
 - Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024.
 - Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025.
-- Shuai Li. [*Haircutting Robots: From Theory to Practice*](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf). Automation, 2025.
-- Steven Li. [*Haircutting Robots*](publications/2025/LiHaircutting%20Robots.pdf). Springer, 2025.
-- [*Safety in Robotic Haircutting*](publications/2025/Safety_in_Robotic_Haircutting.pdf).
-- Ameer Tamoor Khan and Shuai Li. [*Robotic Haircutting Systems: A Survey of Methods, Challenges, and Hair Modeling Insights*](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf). IEEE Journal of Selected Areas in Sensors, 2026.
-- Ameer Tamoor Khan and Shuai Li. [*CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation*](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf). 2026.
-- Ameer Tamoor Khan and Shuai Li. [*Vision-Language-Action Models for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation, and Future Directions*](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf). 2026.
 - ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
 - ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.
 - ISO 14971. *Medical devices - Application of risk management to medical devices*.
+
+## Team Publications
+
+The following publications are authored or co-authored by our team and are collected in this repository.
+
+### 2025
+
+- [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
+- [Li Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
+- [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
+
+### 2026
+
+- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
+- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
+- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
