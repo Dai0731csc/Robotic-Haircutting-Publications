@@ -93,8 +93,8 @@ The following publications are authored or co-authored by our team and are colle
 
 ### 2025
 
+- [Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
 - [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Li Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
 - [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
 
 ### 2026
