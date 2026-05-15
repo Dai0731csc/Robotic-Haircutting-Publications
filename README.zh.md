@@ -1,0 +1,106 @@
+# 机器人理发
+
+语言: [English](README.md) | 中文 | [Suomi](README.fi.md)
+
+本仓库主要作为一个关于机器人理发的百科式概览页面，涵盖背景、历史、安全、挑战与研究方向以及参考文献。仓库收录的相关论文列在文末。
+
+## 概述
+
+机器人理发是指利用机器人系统辅助或完整执行理发操作。其范围可以包括修剪、剃须、发型整理以及其他相关护理任务。专门为这些任务设计的机器人平台通常被称为理发机器人。
+
+这一领域处于机器人学、计算机视觉、运动规划、机器人操作、人机交互、通信、计算机图形学、虚拟现实、人工智能和触觉技术的交叉点。
+
+与普通电动理发器或手动美发工具不同，机器人理发系统需要具备感知、规划和控制能力，使机器人能够相对于人的头部和头发定位切割或护理工具。这一任务在技术上具有较高难度，因为头发是可变形的、个体差异显著，而且操作区域靠近耳朵、眼睛、头皮和面部等敏感解剖部位。
+
+相关系统既包括遥操作平台，也包括更具自主性的概念系统。截至 2025 年，尚无得到广泛部署的完全商业化理发机器人，但现有研究原型和综述工作表明，该方向具备走向商业化的可能路径。
+
+## 历史
+
+### 早期自动理发装置
+
+自动理发的设想早于现代机器人系统。1966 年，[Jean Gronier](#ref-gronier-1966) 的一项美国专利描述了一种通过程序控制来完成预定发型的自动理发机器。与现代机器人理发系统相比，它更适合被视为前机器人时代的自动化装置，因为它依赖机械结构和预设程序，而不是实时感知或自适应反馈。
+
+之后的专利开始提出将感知、机器人机构和用户界面结合起来的更完整系统，显示出向更典型机器人实现形式的转变，其中包括后来的 [Mubarak Aldabbah](#ref-aldabbah-2023) 专利。
+
+### 相机辅助自助理发系统
+
+另一个相关方向是帮助人自行理发，而不是由机器人自主完成剪发。2014 年，[Futami、Terada 和 Tsukamoto](#ref-futami-2014) 提出了一种带有可移动相机的机器人系统，使用户能够从不同视角观察自己的头部，从而辅助完成自助理发。
+
+### 机器人理发原型
+
+在 2020 年代，若干公开演示和 DIY 原型使机器人理发概念获得了更多关注。这些项目通常结合了机械驱动、传感和人工监督，但总体上仍属于实验性演示，而不是经过验证或已商业部署的系统，这一点也可参见 [Shuai Li（2025）](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)。
+
+### 相关护发与造型机器人
+
+一些学术系统研究了与理发相邻的任务，包括洗发、头皮按摩、刷发、梳发、解结以及前发造型。这些系统未必直接执行剪发，但它们涉及许多相同的技术问题，包括可变形头发感知、富接触操作、路径规划、用户舒适性以及头部周围作业安全（[Ando 等，2013](#ref-ando-2013)；[Hughes 等，2021](#ref-hughes-2021)；[Dennler 等，2021](#ref-dennler-2021)；[Yoo 等，2024](#ref-yoo-2024)；[Kim 等，2025](#ref-kim-2025)）。
+
+这类系统的例子包括洗头与头部护理机器人、基于反馈的头发解结系统、机器人梳发平台、如 MOE-Hair 这样的软体头发操作系统，以及基于发根中心调整的前发造型机器人。
+
+### 学术发展
+
+进入 2020 年代后，机器人理发开始被视为服务机器人和个人护理自动化中的一个独立研究主题。早期的专著和综述工作将理发描述为一个多学科工程问题，涉及感知、可变形物体建模、运动规划、控制、遥操作、人机交互和安全。这些工作同时强调了在人体头部附近作业的困难性，包括头发几何的不确定性、不同用户之间的差异，以及对紧密耦合的感知-规划-控制流程的需求，并提出了更广义的理解框架，例如将机器人理发视为类似 CNC 的过程，或视为在关键区域周围带有安全约束的移动机器人覆盖任务（[Li，2025](publications/2025/LiHaircutting%20Robots.pdf)；[Shuai Li，2025](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)；[Khan 和 Li，2026a](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)；[Khan 和 Li，2026b](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)）。
+
+较新的工作还将机器人理发与视觉-语言-动作架构联系起来，用这一场景讨论更高层次的系统智能、评测和部署策略（[2026 立场论文](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)）。
+
+### AI 生成的机器人理发视频
+
+从 2025 年末开始，生成式 AI 视频工具推动了一波虚构的机器人理发视频传播。这些视频展示了人形机器人理发师、多机械臂工作站以及头盔式自动理发设备等概念。虽然这些内容是虚构的，但它们提高了公众认知，也反映出社会对自动化个人护理的兴趣增长。
+
+## 安全
+
+安全是机器人理发中的核心问题，因为机器人需要在人的头部附近操作，并使用推剪、剪刀、剃刀、吹风设备或加热造型工具等器具。相关风险包括感知错误、头部意外移动、接触力过大、工具过热、切割工具错位、标定故障、遥操作中的通信延迟，以及软件或控制失效。
+
+常见的安全措施包括工作空间限制、速度和加速度约束、力或压力阈值、柔顺机构、软包覆或软末端执行器、急停功能、近距离监测、冗余传感，以及在检测到不安全状态时自动中断操作。
+
+目前尚不存在专门针对机器人理发的国际安全标准。不过，一些现有标准可作为风险分析和系统设计的参考，尤其包括 [ISO 13482](#ref-iso-13482)、[ISO/TS 15066](#ref-iso-ts-15066)、[ISO 10218-1](#ref-iso-10218-1) 和 [ISO 14971](#ref-iso-14971)。与机器人理发相关的危险类别、缓解策略以及这些标准对具体风险分析的启发，可参见 [Shuai Li（2025）](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) 和一篇 [2025 年安全综述](publications/2025/Safety_in_Robotic_Haircutting.pdf)。
+
+## 挑战与研究方向
+
+主要挑战包括对头发和头皮的可靠感知、对多样化发质的建模、对用户移动的补偿、安全工具轨迹的规划、维持合适的工具距离和接触力，以及在耳朵、眼睛、面部和头皮等敏感区域周围作业。
+
+头发尤其难以处理，因为它是可变形的、以发丝为基础的，并且在长度、密度、卷曲模式、刚度和湿度等方面具有高度差异。即使几何精度很高，审美评价仍然困难，因为理发质量还取决于风格偏好、对称性、舒适度和用户预期。
+
+其他挑战还包括长时间运行、成本可负担性、认证、责任归属、用户接受度、隐私和数据处理。依赖摄像头或三维扫描的系统可能会采集面部、头皮或发型数据，因此除一般安全问题外，还会引入隐私问题。
+
+这些挑战指向了若干值得进一步推进的机器人理发研究方向：
+
+- 自主理发执行
+- 面向远程专家控制的遥操作理发系统
+- 将人工监督与机器人执行结合起来的共享自主系统
+- 基于目标发型、几何规格或用户指令的理发规划
+- 剪发过程中的头发、头皮与头部姿态实时感知
+- 对用户运动及其他扰动的在线补偿
+- 面向敏感解剖区域作业的安全感知控制
+- 评测协议、基准测试方法以及面向认证的系统设计
+- 面向真实场景可靠应用的部署级系统集成
+
+## 参考文献
+
+- <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966.
+- <a id="ref-aldabbah-2023"></a>Mubarak Aldabbah. *Automatic hair cutter robot*. WO Patent 2023080812A1, 2023.
+- <a id="ref-futami-2014"></a>Kyosuke Futami, Tsutomu Terada, and Masahiko Tsukamoto. *A System for Supporting Self-Haircuts Using Camera Equipped Robot*. MoMM, 2014.
+- <a id="ref-ando-2013"></a>Takeshi Ando et al. *Biosignal-based relaxation evaluation of head-care robot*. EMBC, 2013.
+- <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021.
+- <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021.
+- <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024.
+- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025.
+- <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
+- <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
+- <a id="ref-iso-10218-1"></a>ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.
+- <a id="ref-iso-14971"></a>ISO 14971. *Medical devices - Application of risk management to medical devices*.
+
+## 团队论文
+
+以下论文已在上文相关部分涉及，并收录在本仓库中。
+
+### 2025
+
+- [Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
+- [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
+- [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
+
+### 2026
+
+- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
+- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
+- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
