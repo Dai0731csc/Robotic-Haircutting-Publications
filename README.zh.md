@@ -1,6 +1,6 @@
 # 机器人理发
 
-语言: [English](README.md) | 中文 | [Suomi](README.fi.md)
+语言: [English](README.md) | 中文 | [Suomi](README.fi.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 本仓库主要作为一个关于机器人理发的百科式概览页面，涵盖背景、历史、安全、挑战与研究方向以及参考文献。仓库收录的相关论文列在文末。
 

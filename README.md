@@ -1,6 +1,6 @@
 # Robotic Haircutting
 
-Languages: English | [中文](README.zh.md) | [Suomi](README.fi.md)
+Languages: English | [中文](README.zh.md) | [Suomi](README.fi.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 This repository serves primarily as an encyclopedia-style overview of robotic haircutting, covering background, history, safety, applications, challenges, and references. Relevant publications collected in this repository are cited where appropriate and listed together at the end.
 

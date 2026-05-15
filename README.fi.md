@@ -1,6 +1,6 @@
 # Robottinen hiustenleikkaus
 
-Kielet: [English](README.md) | [中文](README.zh.md) | Suomi
+Kielet: [English](README.md) | [中文](README.zh.md) | Suomi | [Deutsch](README.de.md) | [Français](README.fr.md)
 
 Tama arkisto toimii ensisijaisesti robottista hiustenleikkausta kasittelevana tietosanakirjamaisena yleiskatsauksena. Se kokoaa yhteen taustaa, historiaa, turvallisuutta, haasteita, tutkimussuuntia ja viitteita. Arkistoon kootut asiaankuuluvat julkaisut on listattu sivun lopussa.
 
