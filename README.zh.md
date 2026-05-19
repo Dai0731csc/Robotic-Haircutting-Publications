@@ -36,11 +36,15 @@
 
 这类系统的例子包括洗头与头部护理机器人、基于反馈的头发解结系统、机器人梳发平台、如 MOE-Hair 这样的软体头发操作系统，以及基于发根中心调整的前发造型机器人。
 
+### 数字发型建模与仿真系统
+
+除实体机器人系统外，数字发型建模与仿真工具也为机器人理发提供了重要参考。[Digital Salon](#ref-he-2025-digital-salon) 是一个结合 AI 与物理算法的 3D 头发生成、交互修剪、实时仿真和图像渲染系统，支持通过自然语言生成目标发型，并允许用户在三维环境中进行发型细化和动态模拟。虽然该系统本身并不执行真实剪发操作，但它展示了如何将用户语言、目标发型、发丝级建模、交互编辑和视觉预览整合到统一流程中，因此可被视为机器人理发中目标发型表达、仿真验证和人机交互界面的相关技术基础之一。
+
 ### 学术发展
 
 进入 2020 年代后，机器人理发开始被视为服务机器人和个人护理自动化中的一个独立研究主题。早期的专著和综述工作将理发描述为一个多学科工程问题，涉及感知、可变形物体建模、运动规划、控制、遥操作、人机交互和安全。这些工作同时强调了在人体头部附近作业的困难性，包括头发几何的不确定性、不同用户之间的差异，以及对紧密耦合的感知-规划-控制流程的需求，并提出了更广义的理解框架，例如将机器人理发视为类似 CNC 的过程，或视为在关键区域周围带有安全约束的移动机器人覆盖任务（[Li，2025](publications/2025/LiHaircutting%20Robots.pdf)；[Shuai Li，2025](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)；[Khan 和 Li，2026a](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)；[Khan 和 Li，2026b](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)）。
 
-较新的工作还将机器人理发与视觉-语言-动作架构联系起来，用这一场景讨论更高层次的系统智能、评测和部署策略（[2026 立场论文](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)）。
+较新的工作还将机器人理发与视觉-语言-动作架构联系起来，用这一场景讨论更高层次的系统智能、评测和部署策略（[Khan 和 Li，2026c](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)）。
 
 ### AI 生成的机器人理发视频
 
@@ -68,6 +72,7 @@
 - 面向远程专家控制的遥操作理发系统
 - 将人工监督与机器人执行结合起来的共享自主系统
 - 基于目标发型、几何规格或用户指令的理发规划
+- 面向目标发型生成、数字预演和机器人执行验证的 3D 头发建模与物理仿真
 - 剪发过程中的头发、头皮与头部姿态实时感知
 - 对用户运动及其他扰动的在线补偿
 - 面向敏感解剖区域作业的安全感知控制
@@ -76,14 +81,15 @@
 
 ## 参考文献
 
-- <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966.
-- <a id="ref-aldabbah-2023"></a>Mubarak Aldabbah. *Automatic hair cutter robot*. WO Patent 2023080812A1, 2023.
-- <a id="ref-futami-2014"></a>Kyosuke Futami, Tsutomu Terada, and Masahiko Tsukamoto. *A System for Supporting Self-Haircuts Using Camera Equipped Robot*. MoMM, 2014.
-- <a id="ref-ando-2013"></a>Takeshi Ando et al. *Biosignal-based relaxation evaluation of head-care robot*. EMBC, 2013.
-- <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021.
-- <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021.
-- <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024.
-- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025.
+- <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]
+- <a id="ref-aldabbah-2023"></a>Mubarak Aldabbah. *Automatic hair cutter robot*. WO Patent 2023080812A1, 2023. [[link](https://patents.google.com/patent/WO2023080812A1/en)]
+- <a id="ref-futami-2014"></a>Kyosuke Futami, Tsutomu Terada, and Masahiko Tsukamoto. *A System for Supporting Self-Haircuts Using Camera Equipped Robot*. MoMM, 2014. [[link](https://doi.org/10.1145/2684103.2684143)]
+- <a id="ref-ando-2013"></a>Takeshi Ando et al. *Biosignal-based relaxation evaluation of head-care robot*. EMBC, 2013. [[link](https://doi.org/10.1109/embc.2013.6611101)]
+- <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021.[[link](https://doi.org/10.1109/RoboSoft51838.2021.9479221)]
+- <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021. [[link](https://doi.org/10.1109/IROS51168.2021.9636768)]
+- <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024. [[link](https://doi.org/10.1145/3610978.3640682)]
+- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)]
+- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)]
 - <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
 - <a id="ref-iso-10218-1"></a>ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.

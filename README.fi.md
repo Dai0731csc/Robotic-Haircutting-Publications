@@ -36,11 +36,15 @@ Useat akateemiset jarjestelmat ovat tarkastelleet hiustenleikkauksen lahitehtavi
 
 Esimerkkeja ovat hiustenpesu- ja paanhoitorobotit, palautteeseen perustuvat takutuksenpoistojarjestelmat, robottikampausalustat, MOE-Hairin kaltaiset pehmeat hiustenkasittelyjarjestelmat seka otsahiusten muotoilurobotit, jotka perustuvat hiussuortuvien juurikeskeiseen saatoon.
 
+### Digitaaliset kampausten mallinnus- ja simulointijarjestelmat
+
+Fyysisten robottijarjestelmien lisaksi digitaaliset kampausten mallinnus- ja simulointityokalut tarjoavat tarkeita vertailukohtia robottiselle hiustenleikkaukselle. [Digital Salon](#ref-he-2025-digital-salon) on AI- ja fysiikkapohjainen jarjestelma 3D-hiusten generointiin, interaktiiviseen muotoiluun, reaaliaikaiseen simulointiin ja kuvien renderointiin. Se tukee tavoitekampausten luomista luonnollisella kielella ja mahdollistaa kampausten tarkentamisen ja dynaamisen simuloinnin kolmiulotteisessa ymparistossa. Vaikka jarjestelma ei suorita fyysista hiustenleikkausta, se osoittaa, miten kayttajan kieli, tavoitekampaukset, suortuvatason mallinnus, interaktiivinen muokkaus ja visuaalinen esikatselu voidaan yhdistaa yhtenaiseksi tyokuluksi. Siksi sita voidaan pitaa merkityksellisena teknisena perustana tavoitekampausten esittamiselle, simulointipohjaiselle validoinnille ja ihmisen ja robotin vuorovaikutusrajapinnoille robottisessa hiustenleikkauksessa.
+
 ### Akateeminen kehitys
 
 2020-luvulla robottinen hiustenleikkaus alkoi hahmottua omaksi tutkimusaiheekseen palvelurobotiikassa ja henkilokohtaisen hoivan automaatiossa. Varhaiset monografiat ja katsausartikkelit kuvasivat hiustenleikkausta monitieteisena insinooriongelmana, johon sisaltyvat havainnointi, muodonmuutoksille alttiiden kohteiden mallinnus, liikesuunnittelu, ohjaus, teleoperointi, ihmisen ja robotin vuorovaikutus seka turvallisuus. Samat tyot korostivat paan lahella toimimisen vaikeutta, mukaan lukien hiusgeometrian epavarmuus, kayttajien valinen vaihtelu ja tarve tiiviisti integroiduille havainnointi-suunnittelu-ohjausputkille, ja ne esittivat laajempia kasitteellisia kehyksia, joissa robottista hiustenleikkausta tarkastellaan esimerkiksi CNC-tyyppisena prosessina tai liikkuvan robotin peittotehtavana, johon liittyy turvarajoitteita kriittisten alueiden ymparilla ([Li, 2025](publications/2025/LiHaircutting%20Robots.pdf); [Shuai Li, 2025](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan ja Li, 2026a](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan ja Li, 2026b](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
 
-Uudempi tutkimus on lisaksi yhdistanut robottisen hiustenleikkauksen visio-kieli-toiminta-arkkitehtuureihin ja kayttanyt sita konkreettisena tapausesimerkkina korkeamman tason jarjestelmaalykkyyden, arvioinnin ja kayttoonoton tarkasteluun ([2026 position paper](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
+Uudempi tutkimus on lisaksi yhdistanut robottisen hiustenleikkauksen visio-kieli-toiminta-arkkitehtuureihin ja kayttanyt sita konkreettisena tapausesimerkkina korkeamman tason jarjestelmaalykkyyden, arvioinnin ja kayttoonoton tarkasteluun ([Khan ja Li, 2026c](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
 
 ### Tekoalyn tuottamat robottihiustenleikkausvideot
 
@@ -68,6 +72,7 @@ Namat haasteet osoittavat useita lupaavia tutkimussuuntia robottisessa hiustenle
 - Teleoperointiin perustuva hiustenleikkaus etavalvotulle asiantuntijaohjaukselle
 - Jaetun autonomian jarjestelmat, joissa yhdistyvat ihmisen valvonta ja robotin suoritus
 - Hiustenleikkauksen suunnittelu tavoitekampausten, geometristen maaritysten tai kayttajaohjeiden perusteella
+- 3D-hiusten mallinnus ja fysikaalinen simulointi tavoitekampausten luomista, digitaalista esikatselua ja robotin suorituksen validointia varten
 - Hiusten, hiuspohjan ja paan asennon reaaliaikainen havainnointi leikkauksen aikana
 - Kayttajan liikkeen ja muiden hairioiden kompensointi toiminnan aikana
 - Turvallisuustietoinen ohjaus herkilla anatomisilla alueilla toimimiseen
@@ -76,14 +81,15 @@ Namat haasteet osoittavat useita lupaavia tutkimussuuntia robottisessa hiustenle
 
 ## Viitteet
 
-- <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966.
-- <a id="ref-aldabbah-2023"></a>Mubarak Aldabbah. *Automatic hair cutter robot*. WO Patent 2023080812A1, 2023.
-- <a id="ref-futami-2014"></a>Kyosuke Futami, Tsutomu Terada, and Masahiko Tsukamoto. *A System for Supporting Self-Haircuts Using Camera Equipped Robot*. MoMM, 2014.
-- <a id="ref-ando-2013"></a>Takeshi Ando et al. *Biosignal-based relaxation evaluation of head-care robot*. EMBC, 2013.
-- <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021.
-- <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021.
-- <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024.
-- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025.
+- <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]
+- <a id="ref-aldabbah-2023"></a>Mubarak Aldabbah. *Automatic hair cutter robot*. WO Patent 2023080812A1, 2023. [[link](https://patents.google.com/patent/WO2023080812A1/en)]
+- <a id="ref-futami-2014"></a>Kyosuke Futami, Tsutomu Terada, and Masahiko Tsukamoto. *A System for Supporting Self-Haircuts Using Camera Equipped Robot*. MoMM, 2014. [[link](https://doi.org/10.1145/2684103.2684143)]
+- <a id="ref-ando-2013"></a>Takeshi Ando et al. *Biosignal-based relaxation evaluation of head-care robot*. EMBC, 2013. [[link](https://doi.org/10.1109/embc.2013.6611101)]
+- <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021. [[link](https://doi.org/10.1109/RoboSoft51838.2021.9479221)]
+- <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021. [[link](https://doi.org/10.1109/IROS51168.2021.9636768)]
+- <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024. [[link](https://doi.org/10.1145/3610978.3640682)]
+- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)]
+- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)]
 - <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
 - <a id="ref-iso-10218-1"></a>ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.
