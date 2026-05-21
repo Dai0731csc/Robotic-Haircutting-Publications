@@ -83,7 +83,7 @@ Ces défis suggèrent plusieurs directions prometteuses de recherche en coupe de
 
 En plus des publications rassemblées ici, le projet maintient également un effort d'implémentation en développement continu lié à l'intégration de systèmes de coupe de cheveux robotique :
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client activement développé pour la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes dans des workflows de coupe de cheveux robotique. Ce dépôt doit être compris comme un travail en cours, et non comme une version finale ou figée.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes dans des workflows de coupe de cheveux robotique, et les contributions de toute personne intéressée par ce domaine sont les bienvenues.
 
 ## Références
 

@@ -83,7 +83,7 @@ Diese Herausforderungen weisen auf mehrere vielversprechende Forschungsrichtunge
 
 Zusätzlich zu den hier gesammelten Veröffentlichungen pflegt das Projekt auch ein fortlaufend entwickeltes Implementierungsprojekt zur Systemintegration für robotisches Haareschneiden:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein aktiv weiterentwickeltes clientseitiges System für browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming in robotischen Haareschneide-Workflows. Dieses Repository ist als laufende Arbeit zu verstehen und nicht als abgeschlossene oder eingefrorene Veröffentlichung.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming in robotischen Haareschneide-Workflows, und Beiträge von allen, die sich für dieses Thema interessieren, sind willkommen.
 
 ## Literaturhinweise
 

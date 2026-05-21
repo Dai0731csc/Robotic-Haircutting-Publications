@@ -83,7 +83,7 @@ These challenges point toward several promising research directions in robotic h
 
 In addition to the publications collected here, the project also maintains an ongoing implementation effort related to robotic haircutting system integration:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): an actively developing client-side system for browser-based perception, calibration, communication, and raw pose streaming in robotic haircutting workflows. This repository should be understood as ongoing work rather than a finished or frozen release.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): a client system for browser-based perception, calibration, communication, and raw pose streaming in robotic haircutting workflows, and contributions from anyone interested in this area are welcome.
 
 ## References
 
