@@ -79,6 +79,12 @@ Ces défis suggèrent plusieurs directions prometteuses de recherche en coupe de
 - Protocoles d'évaluation, méthodes de benchmark et conception orientée certification
 - Intégration système orientée déploiement pour une utilisation fiable en conditions réelles
 
+## Travail en cours
+
+En plus des publications rassemblées ici, le projet maintient également un effort d'implémentation en développement continu lié à l'intégration de systèmes de coupe de cheveux robotique :
+
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client activement développé pour la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes dans des workflows de coupe de cheveux robotique. Ce dépôt doit être compris comme un travail en cours, et non comme une version finale ou figée.
+
 ## Références
 
 - <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]

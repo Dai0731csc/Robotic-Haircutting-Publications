@@ -79,6 +79,12 @@ Namat haasteet osoittavat useita lupaavia tutkimussuuntia robottisessa hiustenle
 - Arviointiprotokollat, benchmark-menetelmat ja sertifiointiin suuntautunut jarjestelmasuunnittelu
 - Kayttoonottoon suuntautunut jarjestelmaintegraatio luotettavaa tosielaman kayttoa varten
 
+## Keskenerainen kehitystyo
+
+Tahan arkistoon koottujen julkaisujen lisaksi projekti yllapitaa myos jatkuvasti kehitettavaa toteutusprojektia, joka liittyy robottisen hiustenleikkauksen jarjestelmaintegraatioon:
+
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): aktiivisesti kehitettava asiakaspuolen jarjestelma selainpohjaista havainnointia, kalibrointia, viestintaa ja raakaa pose-virtaa varten robottisen hiustenleikkauksen tyonkuluissa. Tama arkisto on syyta ymmartaa keskeneraisena jatkuvana kehitystyona eika valmiina tai jaadytettyna julkaisuna.
+
 ## Viitteet
 
 - <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]

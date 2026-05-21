@@ -79,6 +79,12 @@ Diese Herausforderungen weisen auf mehrere vielversprechende Forschungsrichtunge
 - Evaluationsprotokolle, Benchmark-Methoden und zertifizierungsorientiertes Systemdesign
 - Einsatzorientierte Systemintegration für einen zuverlässigen realen Betrieb
 
+## Laufende Arbeit
+
+Zusätzlich zu den hier gesammelten Veröffentlichungen pflegt das Projekt auch ein fortlaufend entwickeltes Implementierungsprojekt zur Systemintegration für robotisches Haareschneiden:
+
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein aktiv weiterentwickeltes clientseitiges System für browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming in robotischen Haareschneide-Workflows. Dieses Repository ist als laufende Arbeit zu verstehen und nicht als abgeschlossene oder eingefrorene Veröffentlichung.
+
 ## Literaturhinweise
 
 - <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]

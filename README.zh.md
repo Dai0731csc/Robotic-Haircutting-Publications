@@ -79,6 +79,12 @@
 - 评测协议、基准测试方法以及面向认证的系统设计
 - 面向真实场景可靠应用的部署级系统集成
 
+## 进行中的工作
+
+除本仓库收录的论文外，团队还维护了一个与机器人理发系统集成相关的持续开发项目：
+
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR)：一个仍在积极开发中的客户端系统，主要面向机器人理发流程中的浏览器端感知、标定、通信以及原始位姿流传输。它应被视为 ongoing work，而不是已经定型或冻结发布的最终系统。
+
 ## 参考文献
 
 - <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]

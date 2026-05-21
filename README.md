@@ -79,6 +79,12 @@ These challenges point toward several promising research directions in robotic h
 - Evaluation protocols, benchmarking methods, and certification-oriented system design
 - Deployment-oriented system integration for reliable real-world use
 
+## Ongoing Work
+
+In addition to the publications collected here, the project also maintains an ongoing implementation effort related to robotic haircutting system integration:
+
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): an actively developing client-side system for browser-based perception, calibration, communication, and raw pose streaming in robotic haircutting workflows. This repository should be understood as ongoing work rather than a finished or frozen release.
+
 ## References
 
 - <a id="ref-gronier-1966"></a>Jean Gronier. *Automatic hair-cutting machine having programmed control means for cutting hair in a predetermined style*. US Patent 3241562A, 1966. [[link](https://patents.google.com/patent/US3241562A/en)]
