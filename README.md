@@ -1,6 +1,6 @@
 # Robotic Haircutting
 
-Languages: English | [中文](README.zh.md) | [Suomi](README.fi.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+Languages: English | [中文](/docs/README.zh.md) | [Suomi](/docs/README.fi.md) | [Deutsch](/docs/README.de.md) | [Français](/docs/README.fr.md)
 
 This repository serves primarily as an encyclopedia-style overview of robotic haircutting, covering background, history, safety, applications, challenges, and references. Relevant publications collected in this repository are cited where appropriate and listed together at the end.
 
@@ -94,7 +94,7 @@ In addition to the publications collected here, the project also maintains an on
 - <a id="ref-hughes-2021"></a>Josie Hughes et al. *Detangling hair using feedback-driven robotic brushing*. RoboSoft, 2021. [[link](https://doi.org/10.1109/RoboSoft51838.2021.9479221)]
 - <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021. [[link](https://doi.org/10.1109/IROS51168.2021.9636768)]
 - <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024. [[link](https://doi.org/10.1145/3610978.3640682)]
-- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)]
+- <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)][[code](https://github.com/Dai0731csc/Digital-Salon.git)]
 - <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)]
 - <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
