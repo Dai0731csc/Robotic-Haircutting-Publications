@@ -81,9 +81,15 @@ Ces défis suggèrent plusieurs directions prometteuses de recherche en coupe de
 
 ## Travail en cours
 
-En plus des publications rassemblées ici, le projet maintient également un effort d'implémentation en développement continu lié à l'intégration de systèmes de coupe de cheveux robotique :
+En plus des publications rassemblées ici, notre groupe mène actuellement le travail d'implémentation en cours suivant lié à un système robotique de coupe de cheveux téléopéré à distance :
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes dans des workflows de coupe de cheveux robotique, et les contributions de toute personne intéressée par ce domaine sont les bienvenues.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour un système robotique de coupe de cheveux téléopéré à distance, prenant en charge la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes ; les contributions de toute personne intéressée par ce domaine sont les bienvenues.
+
+D'autres travaux en cours actuellement menés par notre groupe sont organisés dans [../ongoing-work/README.md](../ongoing-work/README.md).
+
+## Projets de référence forkés
+
+Les projets open source forkés pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index a vocation à rester extensible comme référence pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotisée.
 
 ## Références
 

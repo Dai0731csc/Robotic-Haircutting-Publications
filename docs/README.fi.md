@@ -81,9 +81,15 @@ Namat haasteet osoittavat useita lupaavia tutkimussuuntia robottisessa hiustenle
 
 ## Keskenerainen kehitystyo
 
-Tahan arkistoon koottujen julkaisujen lisaksi projekti yllapitaa myos jatkuvasti kehitettavaa toteutusprojektia, joka liittyy robottisen hiustenleikkauksen jarjestelmaintegraatioon:
+Tahan arkistoon koottujen julkaisujen lisaksi tutkimusryhmamme toteuttaa parhaillaan seuraavaa jatkuvaa kehitystyota, joka liittyy etaohjattuun robottiseen hiustenleikkausjarjestelmaan:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): asiakaspuolen jarjestelma selainpohjaista havainnointia, kalibrointia, viestintaa ja raakaa pose-virtaa varten robottisen hiustenleikkauksen tyonkuluissa, ja kaikki aiheesta kiinnostuneet ovat tervetulleita osallistumaan.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): asiakaspuolen jarjestelma etaohjattua robottista hiustenleikkausjarjestelmaa varten; se tukee selainpohjaista havainnointia, kalibrointia, viestintaa ja raakaa pose-virtaa, ja kaikki aiheesta kiinnostuneet ovat tervetulleita osallistumaan.
+
+Muut tutkimusryhmamme parhaillaan toteuttamat jatkuvan kehitystyon kohteet on koottu tiedostoon [../ongoing-work/README.md](../ongoing-work/README.md).
+
+## Haarautetut viiteprojektit
+
+Tahan aihepiiriin liittyvat forked open-source -projektit on jarjestetty luokittain tiedostossa [../related-projects/README.md](../related-projects/README.md). Tama hakemisto on tarkoitettu laajennettavaksi viitekokoelmaksi robottihiustenleikkauksen teknisista perusteista.
 
 ## Viitteet
 

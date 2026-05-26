@@ -81,9 +81,15 @@ Diese Herausforderungen weisen auf mehrere vielversprechende Forschungsrichtunge
 
 ## Laufende Arbeit
 
-Zusätzlich zu den hier gesammelten Veröffentlichungen pflegt das Projekt auch ein fortlaufend entwickeltes Implementierungsprojekt zur Systemintegration für robotisches Haareschneiden:
+Zusätzlich zu den hier gesammelten Veröffentlichungen führt unsere Gruppe derzeit die folgende laufende Implementierungsarbeit zu einem ferngesteuerten teleoperierten Haareschneide-Robotersystem durch:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming in robotischen Haareschneide-Workflows, und Beiträge von allen, die sich für dieses Thema interessieren, sind willkommen.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für ein ferngesteuertes teleoperiertes Haareschneide-Robotersystem mit browserbasierter Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming; Beiträge von allen, die sich für dieses Thema interessieren, sind willkommen.
+
+Weitere derzeit von unserer Gruppe durchgeführte laufende Implementierungsarbeiten sind in [../ongoing-work/README.md](../ongoing-work/README.md) organisiert.
+
+## Geforkte Referenzprojekte
+
+Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz fuer technische Grundlagen im weiteren Forschungsumfeld des robotischen Haareschneidens.
 
 ## Literaturhinweise
 

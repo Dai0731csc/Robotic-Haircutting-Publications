@@ -81,9 +81,15 @@ These challenges point toward several promising research directions in robotic h
 
 ## Ongoing Work
 
-In addition to the publications collected here, the project also maintains an ongoing implementation effort related to robotic haircutting system integration:
+In addition to the publications collected here, our group is currently carrying out the following ongoing implementation work related to a remote teleoperated haircutting robot system:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): a client system for browser-based perception, calibration, communication, and raw pose streaming in robotic haircutting workflows, and contributions from anyone interested in this area are welcome.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): a client system for a remote teleoperated haircutting robot system, supporting browser-based perception, calibration, communication, and raw pose streaming, and contributions from anyone interested in this area are welcome.
+
+Additional ongoing work currently being carried out by our group is organized in [ongoing-work/README.md](ongoing-work/README.md).
+
+## Forked Reference Projects
+
+Relevant forked open-source projects are organized by category in [related-projects/README.md](related-projects/README.md). This index is intended as an expandable reference for related technical foundations used in broader robotic haircutting research.
 
 ## References
 
