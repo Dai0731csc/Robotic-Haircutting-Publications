@@ -1,54 +1,54 @@
 # Robotisches Haareschneiden
 
-Sprachen: [English](README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | Deutsch | [Français](README.fr.md)
+Sprachen: [English](../README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | Deutsch | [Français](README.fr.md)
 
-Dieses Repository dient in erster Linie als enzyklopädischer Überblick über robotisches Haareschneiden und behandelt Hintergrund, Geschichte, Sicherheit, Herausforderungen, Forschungsrichtungen und Literaturhinweise. Relevante in diesem Repository gesammelte Veröffentlichungen sind am Ende aufgeführt.
+Dieses Repository bietet einen enzyklopädischen Überblick über robotisches Haareschneiden. Es behandelt Hintergrund, Geschichte, Sicherheitsaspekte, Anwendungen, technische Herausforderungen und zentrale Referenzen. Relevante Veröffentlichungen werden im Text zitiert und am Ende dieses Dokuments gesammelt.
 
 ## Überblick
 
-Robotisches Haareschneiden bezeichnet den Einsatz robotischer Systeme zur Unterstützung oder vollständigen Ausführung von Haarschneidevorgängen. Der Begriff kann Trimmen, Rasieren, Frisieren und weitere verwandte Pflegeaufgaben umfassen. Robotische Plattformen, die für diese Aufgaben entwickelt wurden, werden üblicherweise als Haarschneide-Roboter bezeichnet.
+Robotisches Haareschneiden bezeichnet den Einsatz robotischer Systeme zur Unterstützung oder Ausführung von Haarschneideaufgaben. Dazu gehören Trimmen, Rasieren, Frisieren und weitere verwandte Pflegeaufgaben. Robotische Plattformen, die für diese Aufgaben entwickelt wurden, werden üblicherweise als Haarschneide-Roboter bezeichnet.
 
 Das Gebiet liegt an der Schnittstelle von Robotik, Computer Vision, Bewegungsplanung, Manipulation, Mensch-Roboter-Interaktion, Kommunikation, Computergrafik, virtueller Realität, künstlicher Intelligenz und Haptik.
 
-Im Gegensatz zu gewöhnlichen elektrischen Haarschneidemaschinen oder manuell geführten Pflegewerkzeugen benötigen robotische Haarschneidesysteme Wahrnehmungs-, Planungs- und Regelungsfähigkeiten, damit ein Roboter ein Schneide- oder Pflegewerkzeug relativ zu Kopf und Haar positionieren kann. Dies ist technisch anspruchsvoll, weil Haare deformierbar sind, zwischen Personen stark variieren und in der Nähe empfindlicher anatomischer Bereiche wie Ohren, Augen, Kopfhaut und Gesicht bearbeitet werden.
+Im Gegensatz zu gewöhnlichen elektrischen Haarschneidemaschinen oder manuell geführten Pflegewerkzeugen benötigen robotische Haarschneidesysteme Wahrnehmungs-, Planungs- und Regelungsfähigkeiten, damit ein Roboter ein Schneide- oder Pflegewerkzeug relativ zu Kopf und Haar positionieren kann. Das ist technisch anspruchsvoll, weil Haare deformierbar sind, zwischen Personen stark variieren und in der Nähe empfindlicher anatomischer Bereiche wie Ohren, Augen, Kopfhaut und Gesicht bearbeitet werden.
 
-Die Systeme reichen von teleoperierten Plattformen bis zu autonomeren Konzepten. Stand 2025 ist kein vollständig kommerzieller Haarschneide-Roboter breit im Einsatz, doch Forschungsprototypen und Überblicksarbeiten deuten auf einen plausiblen Weg zur Kommerzialisierung hin.
+Die heute diskutierten Systeme reichen von teleoperierten Plattformen bis zu autonomeren Konzepten. In der hier gesammelten Literatur von 2025 wird kein vollständig kommerzieller Haarschneide-Roboter als breit eingesetzt beschrieben, doch Forschungsprototypen und Überblicksarbeiten deuten auf einen plausiblen Weg zur Kommerzialisierung hin.
 
 ## Geschichte
 
 ### Frühe automatische Haarschneidegeräte
 
-Ideen zum automatischen Haareschneiden entstanden lange vor modernen robotischen Systemen. Ein US-Patent von [Jean Gronier](#ref-gronier-1966) aus dem Jahr 1966 beschrieb eine automatische Haarschneidemaschine, die mithilfe programmierter Steuerung eine vorgegebene Frisur erzeugen sollte. Es lässt sich besser als vor-robotische Automatisierung denn als modernes robotisches Haarschneidesystem verstehen, da es auf mechanischer Struktur und vorgegebenen Programmen beruhte und nicht auf Echtzeitwahrnehmung oder adaptivem Feedback.
+Ideen zum automatischen Haareschneiden entstanden lange vor modernen robotischen Systemen. Ein US-Patent von [Jean Gronier](#ref-gronier-1966) aus dem Jahr 1966 beschrieb eine automatische Haarschneidemaschine, die mithilfe programmierter Steuerung eine vorgegebene Frisur erzeugen sollte. Es lässt sich besser als vorrobotische Automatisierung denn als modernes robotisches Haarschneidesystem verstehen, da es auf mechanischer Struktur und vorgegebenen Programmen beruhte und nicht auf Echtzeitwahrnehmung oder adaptivem Feedback.
 
-Spätere Patente schlugen integriertere Systeme vor, die Wahrnehmung, robotische Mechanismen und Benutzerschnittstellen kombinierten. Das zeigt einen Übergang zu deutlicher robotischeren Umsetzungen, darunter auch das spätere Patent von [Mubarak Aldabbah](#ref-aldabbah-2023).
+Spätere Patente schlugen integriertere Systeme vor, die Wahrnehmung, robotische Mechanismen und Benutzerschnittstellen kombinierten. Das spiegelt einen Übergang zu deutlicher robotisch geprägten Umsetzungen wider, darunter auch das spätere Patent von [Mubarak Aldabbah](#ref-aldabbah-2023).
 
 ### Kameragestützte Selbsthaarschnitt-Systeme
 
-Eine verwandte Richtung konzentrierte sich darauf, Menschen beim eigenen Haareschneiden zu unterstützen, anstatt den Schnitt autonom durch einen Roboter ausführen zu lassen. 2014 stellten [Futami, Terada und Tsukamoto](#ref-futami-2014) ein robotisches System mit beweglicher Kamera vor, das Nutzern während des Selbsthaarschnitts unterschiedliche Blickwinkel auf den eigenen Kopf ermöglichte.
+Eine verwandte Forschungslinie konzentrierte sich darauf, Menschen beim eigenen Haareschneiden zu unterstützen, anstatt den Schnitt autonom durch einen Roboter ausführen zu lassen. 2014 stellten [Futami, Terada und Tsukamoto](#ref-futami-2014) ein robotisches System mit beweglicher Kamera vor, das Nutzern während des Selbsthaarschnitts unterschiedliche Blickwinkel auf den eigenen Kopf ermöglichte.
 
 ### Robotische Haarschneide-Prototypen
 
-In den 2020er Jahren lenkten mehrere öffentliche Demonstrationen und Do-it-yourself-Prototypen Aufmerksamkeit auf Konzepte des robotischen Haareschneidens. Diese Projekte kombinierten mechanische Aktuation, Sensorik und menschliche Aufsicht, blieben aber im Allgemeinen experimentelle Demonstrationen statt validierter oder kommerziell eingesetzter Systeme; dieselbe Unterscheidung wird auch in [Shuai Li (2025)](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) betont.
+In den 2020er Jahren lenkten mehrere öffentliche Demonstrationen und Do-it-yourself-Prototypen Aufmerksamkeit auf Konzepte des robotischen Haareschneidens. Diese Projekte kombinierten mechanische Aktuation, Sensorik und menschliche Aufsicht, blieben jedoch experimentelle Demonstrationen statt validierter oder kommerziell eingesetzter Systeme. Dieselbe Unterscheidung wird auch in [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) betont.
 
 ### Verwandte Haarpflege- und Frisierroboter
 
-Mehrere akademische Systeme untersuchten dem Haareschneiden benachbarte Aufgaben wie Haarewaschen, Kopfhautmassage, Bürsten, Kämmen, Entwirren und das Stylen des vorderen Haarbereichs. Diese Systeme schneiden nicht notwendigerweise Haare, behandeln aber viele derselben technischen Fragen, darunter die Wahrnehmung deformierbarer Haare, kontaktreiche Manipulation, Pfadplanung, Nutzerkomfort und Sicherheit in Kopfnähe ([Ando et al., 2013](#ref-ando-2013); [Hughes et al., 2021](#ref-hughes-2021); [Dennler et al., 2021](#ref-dennler-2021); [Yoo et al., 2024](#ref-yoo-2024); [Kim et al., 2025](#ref-kim-2025)).
+Mehrere akademische Systeme haben dem Haareschneiden benachbarte Aufgaben wie Haarewaschen, Kopfhautmassage, Bürsten, Kämmen, Entwirren und das Stylen des vorderen Haarbereichs untersucht. Obwohl diese Systeme nicht unbedingt Haare schneiden, behandeln sie viele derselben technischen Fragen, darunter die Wahrnehmung deformierbarer Haare, kontaktreiche Manipulation, Pfadplanung, Nutzerkomfort und Sicherheit in Kopfnähe ([Ando et al., 2013](#ref-ando-2013); [Hughes et al., 2021](#ref-hughes-2021); [Dennler et al., 2021](#ref-dennler-2021); [Yoo et al., 2024](#ref-yoo-2024); [Kim et al., 2025](#ref-kim-2025)).
 
-Beispiele sind Haarwasch- und Kopfpflege-Roboter, feedbackgesteuerte Entwirrsysteme, robotische Kämmsysteme, weiche Haarmanipulationssysteme wie MOE-Hair sowie Front-Hair-Styling-Systeme auf Basis wurzelzentrierter Strangverstellung.
+Beispiele sind Haarwasch- und Kopfpflege-Roboter, feedbackgesteuerte Entwirrsysteme, robotische Kämmsysteme, weiche Haarmanipulationssysteme wie MOE-Hair sowie Front-Hair-Styling-Systeme auf Basis wurzelzentrierter Stranganpassung.
 
 ### Digitale Frisurenmodellierungs- und Simulationssysteme
 
-Neben physischen Robotersystemen liefern auch digitale Werkzeuge zur Frisurenmodellierung und -simulation wichtige Bezugspunkte für robotisches Haareschneiden. [Digital Salon](#ref-he-2025-digital-salon) ist ein KI- und physikbasiertes System für die 3D-Haargenerierung, interaktive Haarbearbeitung, Echtzeitsimulation und Bildrendering. Es unterstützt die Erzeugung von Zielfrisuren mittels natürlicher Sprache und ermöglicht es Nutzern, Frisuren in einer dreidimensionalen Umgebung zu verfeinern und dynamisch zu simulieren. Obwohl das System selbst kein reales Haareschneiden ausführt, zeigt es, wie Nutzersprache, Zielfrisuren, strangbasierte Modellierung, interaktive Bearbeitung und visuelle Vorschau in einem einheitlichen Workflow zusammengeführt werden können. Es kann daher als relevante technische Grundlage für Zielfrisurenrepräsentation, simulationsbasierte Validierung und Mensch-Roboter-Interaktionsschnittstellen im robotischen Haareschneiden betrachtet werden.
+Neben physischen Robotersystemen liefern auch digitale Werkzeuge zur Frisurenmodellierung und -simulation wichtige Bezugspunkte für robotisches Haareschneiden. [Digital Salon](#ref-he-2025-digital-salon) ist ein KI- und physikbasiertes System für die 3D-Haargenerierung, interaktive Pflege, Echtzeitsimulation und Bildrendering. Es unterstützt die Erzeugung von Zielfrisuren mittels natürlicher Sprache und ermöglicht es Nutzern, Frisuren in einer dreidimensionalen Umgebung zu verfeinern und zu simulieren. Obwohl das System selbst kein reales Haareschneiden ausführt, zeigt es, wie Nutzersprache, die Spezifikation von Zielfrisuren, strangbasierte Modellierung, interaktive Bearbeitung und visuelle Vorschau in einem einheitlichen Workflow zusammengeführt werden können. Dadurch ist es für Zielfrisurenrepräsentation, simulationsbasierte Validierung und Mensch-Roboter-Interaktionsschnittstellen im robotischen Haareschneiden relevant.
 
 ### Akademische Entwicklung
 
-In den 2020er Jahren begann sich robotisches Haareschneiden als eigenes Forschungsthema in der Servicerobotik und persönlichen Pflegeautomatisierung herauszubilden. Frühe Monografien und Überblicksarbeiten beschrieben Haareschneiden als multidisziplinäres Ingenieurproblem, das Wahrnehmung, Modellierung deformierbarer Objekte, Bewegungsplanung, Regelung, Teleoperation, Mensch-Roboter-Interaktion und Sicherheit umfasst. Diese Arbeiten betonten zugleich die Schwierigkeit des Arbeitens in Kopfnähe, einschließlich Unsicherheit in der Haargeometrie, Unterschiede zwischen Nutzern und des Bedarfs an eng integrierten Wahrnehmungs-Planungs-Regelungs-Pipelines. Außerdem führten sie breitere konzeptionelle Rahmungen ein, etwa robotisches Haareschneiden als CNC-ähnlichen Prozess oder als Mobile-Robotics-artige Abdeckungsaufgabe mit Sicherheitsbeschränkungen in kritischen Bereichen ([Li, 2025](publications/2025/LiHaircutting%20Robots.pdf); [Shuai Li, 2025](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan und Li, 2026a](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan und Li, 2026b](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
+In den 2020er Jahren begann sich robotisches Haareschneiden als eigenes Forschungsthema in der Servicerobotik und persönlichen Pflegeautomatisierung herauszubilden. Frühe Monografien und Überblicksarbeiten beschrieben Haareschneiden als multidisziplinäres Ingenieurproblem, das Wahrnehmung, Modellierung deformierbarer Objekte, Bewegungsplanung, Regelung, Teleoperation, Mensch-Roboter-Interaktion und Sicherheit umfasst. Diese Arbeiten betonten zudem die Schwierigkeit des Arbeitens in Kopfnähe, einschließlich Unsicherheit in der Haargeometrie, Unterschiede zwischen Nutzern und des Bedarfs an eng integrierten Wahrnehmungs-Planungs-Regelungs-Pipelines. Gleichzeitig führten sie breitere konzeptionelle Perspektiven ein, etwa robotisches Haareschneiden als CNC-ähnlichen Prozess oder als Mobile-Robotics-artige Abdeckungsaufgabe mit Sicherheitsbeschränkungen in kritischen Bereichen ([Li, 2025](../publications/2025/Haircutting_Robots.pdf); [Shuai Li, 2025](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan und Li, 2026a](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan und Li, 2026b](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
 
-Neuere Arbeiten verknüpfen robotisches Haareschneiden außerdem mit Vision-Language-Action-Architekturen und verwenden das Feld als konkretes Beispiel zur Diskussion höherer Systemintelligenz, Evaluation und Einsatzstrategien ([Khan und Li, 2026c](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
+Neuere Arbeiten verknüpfen robotisches Haareschneiden außerdem mit Vision-Language-Action-Architekturen und verwenden das Feld als konkreten Rahmen zur Diskussion höherer Systemintelligenz, Evaluation und Einsatzstrategien ([Khan und Li, 2026c](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
 
 ### KI-generierte Videos zum robotischen Haareschneiden
 
-Seit Ende 2025 führten generative KI-Videowerkzeuge zu einer Welle fiktiver Videos über robotisches Haareschneiden im Internet. Diese zeigten humanoide Roboter-Friseure, Multiarm-Arbeitsstationen und helmartige automatische Haarschneidegeräte. Obwohl diese Inhalte fiktiv waren, steigerten sie die öffentliche Aufmerksamkeit und spiegelten das wachsende Interesse an automatisierter Körperpflege wider.
+Seit Ende 2025 haben generative KI-Videowerkzeuge zu einer Welle fiktiver Videos über robotisches Haareschneiden im Internet beigetragen. Diese Videos zeigten humanoide Roboter-Friseure, Multiarm-Arbeitsstationen und helmartige automatische Haarschneidegeräte. Obwohl die Inhalte fiktiv waren, steigerten sie die öffentliche Aufmerksamkeit und spiegelten das wachsende Interesse an automatisierter Körperpflege wider.
 
 ## Sicherheit
 
@@ -56,7 +56,7 @@ Sicherheit ist beim robotischen Haareschneiden zentral, weil der Roboter in Kopf
 
 Vorgeschlagene Sicherheitsmaßnahmen umfassen Arbeitsraumbeschränkungen, Geschwindigkeits- und Beschleunigungsgrenzen, Kraft- oder Druckschwellen, nachgiebige Mechanismen, weiche Abdeckungen oder Endeffektoren, Not-Aus-Funktionen, Nahbereichsüberwachung, redundante Sensorik und automatische Unterbrechung bei erkannten Gefahrensituationen.
 
-Für robotisches Haareschneiden existiert kein eigener internationaler Sicherheitsstandard. Mehrere bestehende Standards sind jedoch für Risikoanalyse und Systemgestaltung relevant, insbesondere [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) und [ISO 14971](#ref-iso-14971). Gefahrenkategorien, Minderungsstrategien und die Bedeutung dieser Standards für eine haarschneidespezifische Risikoanalyse werden in [Shuai Li (2025)](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) sowie in einem [Sicherheitsüberblick von 2025](publications/2025/Safety_in_Robotic_Haircutting.pdf) behandelt.
+Für robotisches Haareschneiden existiert kein eigener internationaler Sicherheitsstandard. Mehrere bestehende Standards bieten jedoch nützliche Referenzpunkte für Risikoanalyse und Systemgestaltung, insbesondere [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) und [ISO 14971](#ref-iso-14971). Gefahrenkategorien, Minderungsstrategien und die Bedeutung dieser Standards für eine haarschneidespezifische Risikoanalyse werden in [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) sowie in einem [Sicherheitsüberblick von 2025](../publications/2025/Safety_in_Robotic_Haircutting.pdf) behandelt.
 
 ## Herausforderungen und Forschungsrichtungen
 
@@ -77,19 +77,19 @@ Diese Herausforderungen weisen auf mehrere vielversprechende Forschungsrichtunge
 - Kompensation von Nutzerbewegungen und anderen Störungen während des Betriebs
 - Sicherheitsbewusste Regelung für den Betrieb in der Nähe empfindlicher anatomischer Regionen
 - Evaluationsprotokolle, Benchmark-Methoden und zertifizierungsorientiertes Systemdesign
-- Einsatzorientierte Systemintegration für einen zuverlässigen realen Betrieb
+- Einsatzorientierte Systemintegration für einen zuverlässigen Betrieb in realen Anwendungen
 
 ## Laufende Arbeit
 
-Zusätzlich zu den hier gesammelten Veröffentlichungen führt unsere Gruppe derzeit die folgende laufende Implementierungsarbeit zu einem ferngesteuerten teleoperierten Haareschneide-Robotersystem durch:
+Zusätzlich zu den hier gesammelten Veröffentlichungen entwickelt das Team hinter diesem Repository über das folgende öffentliche Projekt ein ferngesteuertes teleoperiertes Haareschneide-Robotersystem:
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für ein ferngesteuertes teleoperiertes Haareschneide-Robotersystem mit browserbasierter Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming; Beiträge von allen, die sich für dieses Thema interessieren, sind willkommen.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für ferngesteuertes teleoperiertes robotisches Haareschneiden. Es unterstützt browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming. Beiträge von Forschenden und Entwicklern, die sich für dieses Thema interessieren, sind willkommen.
 
-Weitere derzeit von unserer Gruppe durchgeführte laufende Implementierungsarbeiten sind in [../ongoing-work/README.md](../ongoing-work/README.md) organisiert.
+Weitere laufende Arbeiten dieses Teams sind in [../ongoing-work/README.md](../ongoing-work/README.md) organisiert.
 
 ## Geforkte Referenzprojekte
 
-Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz fuer technische Grundlagen im weiteren Forschungsumfeld des robotischen Haareschneidens.
+Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz für technische Grundlagen im breiteren Forschungsumfeld des robotischen Haareschneidens.
 
 ## Literaturhinweise
 
@@ -101,7 +101,7 @@ Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-proj
 - <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021. [[link](https://doi.org/10.1109/IROS51168.2021.9636768)]
 - <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024. [[link](https://doi.org/10.1145/3610978.3640682)]
 - <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)]
-- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)][[code](https://github.com/Dai0731csc/Digital-Salon.git)]
+- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)][[code](https://github.com/Dai0731csc/Digital-Salon)]
 - <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
 - <a id="ref-iso-10218-1"></a>ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.
@@ -109,16 +109,16 @@ Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-proj
 
 ## Veröffentlichungen in diesem Repository
 
-Die folgenden Veröffentlichungen werden in den obigen Abschnitten genannt und sind in diesem Repository gesammelt.
+Dieses Projekt wird an der Universität Oulu von [Professor Shuai Li](https://www.oulu.fi/en/researchers/shuai-li) geleitet und konzentriert sich derzeit auf Forschung zum robotischen Haareschneiden. Die einschlägigen Veröffentlichungen wurden in den obigen Abschnitten bereits erwähnt und sind in diesem Repository gesammelt. Sie sind nachfolgend aufgeführt.
 
 ### 2025
 
-- [Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
-- [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
+- [Haircutting Robots](../publications/2025/Haircutting_Robots.pdf)
+- [Haircutting Robots from Theory to Practice](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
+- [Safety in Robotic Haircutting](../publications/2025/Safety_in_Robotic_Haircutting.pdf)
 
 ### 2026
 
-- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
-- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
-- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
+- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
+- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
+- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)

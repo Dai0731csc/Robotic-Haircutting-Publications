@@ -1,54 +1,54 @@
 # Coupe de cheveux robotique
 
-Langues : [English](README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | [Deutsch](README.de.md) | Français
+Langues : [English](../README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | [Deutsch](README.de.md) | Français
 
-Ce dépôt sert principalement de vue d'ensemble de type encyclopédique sur la coupe de cheveux robotique. Il rassemble des éléments de contexte, d'histoire, de sécurité, de défis, de directions de recherche et de références. Les publications pertinentes rassemblées dans ce dépôt sont listées à la fin.
+Ce dépôt propose une vue d'ensemble de type encyclopédique sur la coupe de cheveux robotique. Il couvre le contexte, l'histoire, les considérations de sécurité, les applications, les défis techniques et les principales références. Les publications pertinentes sont citées dans le texte et rassemblées à la fin de ce document.
 
 ## Vue d'ensemble
 
-La coupe de cheveux robotique désigne l'utilisation de systèmes robotiques pour assister ou réaliser entièrement des opérations de coupe de cheveux. Le terme peut englober la tonte, le rasage, le coiffage et d'autres tâches de soin apparentées. Les plateformes robotiques conçues pour ces tâches sont généralement appelées robots de coupe de cheveux.
+La coupe de cheveux robotique désigne l'utilisation de systèmes robotiques pour assister ou exécuter des tâches de coupe de cheveux. Son périmètre inclut la tonte, le rasage, le coiffage et d'autres activités de soin apparentées. Les plateformes robotiques conçues pour ces tâches sont généralement appelées robots de coupe de cheveux.
 
 Ce domaine se situe à l'intersection de la robotique, de la vision par ordinateur, de la planification du mouvement, de la manipulation robotique, de l'interaction humain-robot, de la communication, de l'infographie, de la réalité virtuelle, de l'intelligence artificielle et de l'haptique.
 
-Contrairement aux tondeuses électriques ordinaires ou aux outils de coiffure manipulés à la main, les systèmes robotiques de coupe de cheveux nécessitent des capacités de perception, de planification et de contrôle permettant à un robot de positionner un outil de coupe ou de soin par rapport à la tête humaine et aux cheveux. Cette tâche est techniquement difficile parce que les cheveux sont déformables, varient fortement d'une personne à l'autre et doivent être manipulés à proximité de régions anatomiques sensibles telles que les oreilles, les yeux, le cuir chevelu et le visage.
+Contrairement aux tondeuses électriques ordinaires ou aux outils de coiffure manipulés à la main, les systèmes robotiques de coupe de cheveux nécessitent des capacités de perception, de planification et de contrôle permettant à un robot de positionner un outil de coupe ou de soin par rapport à la tête humaine et aux cheveux. Cette tâche est techniquement exigeante parce que les cheveux sont déformables, varient fortement d'une personne à l'autre et doivent être manipulés à proximité de régions anatomiques sensibles telles que les oreilles, les yeux, le cuir chevelu et le visage.
 
-Les systèmes vont de plateformes téléopérées à des concepts plus autonomes. En 2025, aucun robot de coupe de cheveux entièrement commercial n'était largement déployé, mais les prototypes de recherche et les travaux de synthèse suggèrent une trajectoire plausible vers la commercialisation.
+Les systèmes étudiés vont de plateformes téléopérées à des concepts plus autonomes. Dans la littérature de 2025 rassemblée ici, aucun robot de coupe de cheveux entièrement commercial n'est décrit comme étant largement déployé, mais les prototypes de recherche et les travaux de synthèse suggèrent une trajectoire plausible vers la commercialisation.
 
 ## Histoire
 
 ### Premiers dispositifs automatiques de coupe de cheveux
 
-Les idées de coupe de cheveux automatisée sont apparues bien avant les systèmes robotiques modernes. Un brevet américain obtenu en 1966 par [Jean Gronier](#ref-gronier-1966) décrivait une machine automatique de coupe de cheveux utilisant un contrôle programmé pour produire une coiffure prédéterminée. Il est plus juste de le considérer comme une automatisation pré-robotique que comme un système robotique moderne de coupe de cheveux, car il reposait sur une structure mécanique et des programmes prédéfinis plutôt que sur une perception en temps réel ou un retour adaptatif.
+Les idées de coupe de cheveux automatisée sont apparues bien avant les systèmes robotiques modernes. Un brevet américain obtenu en 1966 par [Jean Gronier](#ref-gronier-1966) décrivait une machine automatique de coupe de cheveux utilisant un contrôle programmé pour produire une coiffure prédéterminée. Il est plus juste de le considérer comme une automatisation prérobotique que comme un système robotique moderne de coupe de cheveux, car il reposait sur une structure mécanique et des programmes prédéfinis plutôt que sur une perception en temps réel ou un retour adaptatif.
 
-Des brevets ultérieurs ont proposé des systèmes plus intégrés combinant perception, mécanismes robotiques et interfaces utilisateur. Cela marque une transition vers des réalisations plus nettement robotiques, y compris le brevet ultérieur de [Mubarak Aldabbah](#ref-aldabbah-2023).
+Des brevets ultérieurs ont proposé des systèmes plus intégrés combinant perception, mécanismes robotiques et interfaces utilisateur. Cela reflète une transition vers des réalisations plus nettement robotiques, y compris le brevet ultérieur de [Mubarak Aldabbah](#ref-aldabbah-2023).
 
 ### Systèmes d'auto-coupe assistés par caméra
 
-Une direction connexe visait à aider les personnes à se couper elles-mêmes les cheveux plutôt qu'à faire exécuter la coupe de manière autonome par un robot. En 2014, [Futami, Terada et Tsukamoto](#ref-futami-2014) ont proposé un système robotique équipé d'une caméra mobile permettant à l'utilisateur d'observer sa tête sous différents angles pendant une auto-coupe.
+Une autre ligne de recherche visait à aider les personnes à se couper elles-mêmes les cheveux, plutôt qu'à faire exécuter la coupe de manière autonome par un robot. En 2014, [Futami, Terada et Tsukamoto](#ref-futami-2014) ont proposé un système robotique équipé d'une caméra mobile permettant à l'utilisateur d'observer sa tête sous différents angles pendant une auto-coupe.
 
 ### Prototypes robotiques de coupe de cheveux
 
-Dans les années 2020, plusieurs démonstrations publiques et prototypes artisanaux ont attiré l'attention sur les concepts de coupe de cheveux robotique. Ces projets combinaient actionnement mécanique, capteurs et supervision humaine, mais relevaient généralement de démonstrations expérimentales plutôt que de systèmes validés ou commercialement déployés ; cette distinction est également soulignée dans [Shuai Li (2025)](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf).
+Dans les années 2020, plusieurs démonstrations publiques et prototypes artisanaux ont attiré l'attention sur les concepts de coupe de cheveux robotique. Ces projets combinaient actionnement mécanique, capteurs et supervision humaine, mais ils sont restés des démonstrations expérimentales plutôt que des systèmes validés ou commercialement déployés. Cette distinction est également soulignée dans [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf).
 
 ### Robots de soin capillaire et de coiffage apparentés
 
-Plusieurs systèmes académiques ont étudié des tâches voisines de la coupe de cheveux, comme le shampooing, le massage du cuir chevelu, le brossage, le peignage, le démêlage et la mise en forme de la frange. Ces systèmes ne coupent pas nécessairement les cheveux, mais abordent nombre des mêmes questions techniques, notamment la perception de cheveux déformables, la manipulation riche en contacts, la planification de trajectoire, le confort de l'utilisateur et la sécurité à proximité de la tête ([Ando et al., 2013](#ref-ando-2013); [Hughes et al., 2021](#ref-hughes-2021); [Dennler et al., 2021](#ref-dennler-2021); [Yoo et al., 2024](#ref-yoo-2024); [Kim et al., 2025](#ref-kim-2025)).
+Plusieurs systèmes académiques ont étudié des tâches voisines de la coupe de cheveux, comme le shampooing, le massage du cuir chevelu, le brossage, le peignage, le démêlage et la mise en forme de la frange. Bien que ces systèmes ne coupent pas nécessairement les cheveux, ils abordent nombre des mêmes questions techniques, notamment la perception de cheveux déformables, la manipulation riche en contacts, la planification de trajectoire, le confort de l'utilisateur et la sécurité à proximité de la tête ([Ando et al., 2013](#ref-ando-2013); [Hughes et al., 2021](#ref-hughes-2021); [Dennler et al., 2021](#ref-dennler-2021); [Yoo et al., 2024](#ref-yoo-2024); [Kim et al., 2025](#ref-kim-2025)).
 
 Parmi les exemples figurent des robots de lavage et de soin de la tête, des systèmes de démêlage guidés par retour d'information, des plateformes robotiques de peignage, des systèmes souples de manipulation des cheveux comme MOE-Hair, ainsi que des robots de coiffage de l'avant des cheveux fondés sur un ajustement centré sur la racine.
 
 ### Systèmes numériques de modélisation et de simulation de coiffures
 
-Outre les systèmes robotiques physiques, les outils numériques de modélisation et de simulation de coiffures fournissent aussi des références importantes pour la coupe de cheveux robotique. [Digital Salon](#ref-he-2025-digital-salon) est un système fondé sur l'IA et la physique pour la génération de cheveux 3D, le coiffage interactif, la simulation en temps réel et le rendu d'images. Il prend en charge la génération de coiffures cibles à partir du langage naturel et permet aux utilisateurs d'affiner et de simuler dynamiquement des coiffures dans un environnement tridimensionnel. Bien que ce système n'exécute pas de coupe réelle, il montre comment le langage utilisateur, les coiffures cibles, la modélisation au niveau des mèches, l'édition interactive et la prévisualisation visuelle peuvent être intégrés dans un flux de travail unifié. Il constitue donc une base technique pertinente pour la représentation de coiffures cibles, la validation par simulation et les interfaces d'interaction humain-robot en coupe de cheveux robotique.
+Outre les systèmes robotiques physiques, les outils numériques de modélisation et de simulation de coiffures constituent aussi un point de référence important pour la coupe de cheveux robotique. [Digital Salon](#ref-he-2025-digital-salon) est un système fondé sur l'IA et la physique pour la génération de cheveux 3D, le coiffage interactif, la simulation en temps réel et le rendu d'images. Il prend en charge la génération de coiffures cibles à partir du langage naturel et permet aux utilisateurs d'affiner et de simuler des coiffures dans un environnement tridimensionnel. Bien que ce système n'exécute pas de coupe réelle, il montre comment le langage utilisateur, la définition de coiffures cibles, la modélisation au niveau des mèches, l'édition interactive et la prévisualisation visuelle peuvent être intégrés dans un flux de travail unifié. Il est ainsi pertinent pour la représentation de coiffures cibles, la validation par simulation et les interfaces d'interaction humain-robot en coupe de cheveux robotique.
 
 ### Développement académique
 
-Dans les années 2020, la coupe de cheveux robotique a commencé à être formulée comme un sujet de recherche distinct en robotique de service et en automatisation des soins personnels. Les premières monographies et études de synthèse ont décrit la coupe de cheveux comme un problème d'ingénierie multidisciplinaire impliquant perception, modélisation d'objets déformables, planification du mouvement, contrôle, téléopération, interaction humain-robot et sécurité. Ces travaux ont également souligné la difficulté d'opérer près de la tête humaine, notamment l'incertitude sur la géométrie des cheveux, la variabilité entre utilisateurs et la nécessité de pipelines étroitement intégrés de perception-planification-contrôle. Ils ont aussi introduit des cadres conceptuels plus larges, par exemple la coupe de cheveux robotique comme un processus de type CNC ou comme une tâche de couverture inspirée de la robotique mobile avec contraintes de sécurité autour de régions critiques ([Li, 2025](publications/2025/LiHaircutting%20Robots.pdf); [Shuai Li, 2025](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan et Li, 2026a](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan et Li, 2026b](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
+Dans les années 2020, la coupe de cheveux robotique a commencé à être formulée comme un sujet de recherche distinct en robotique de service et en automatisation des soins personnels. Les premières monographies et études de synthèse ont décrit la coupe de cheveux comme un problème d'ingénierie multidisciplinaire impliquant perception, modélisation d'objets déformables, planification du mouvement, contrôle, téléopération, interaction humain-robot et sécurité. Ces travaux ont également souligné la difficulté d'opérer près de la tête humaine, notamment l'incertitude sur la géométrie des cheveux, la variabilité entre utilisateurs et la nécessité de pipelines étroitement intégrés de perception-planification-contrôle. Ils ont en même temps introduit des perspectives conceptuelles plus larges, par exemple la coupe de cheveux robotique comme un processus de type CNC ou comme une tâche de couverture inspirée de la robotique mobile avec contraintes de sécurité autour de régions critiques ([Li, 2025](../publications/2025/Haircutting_Robots.pdf); [Shuai Li, 2025](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan et Li, 2026a](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan et Li, 2026b](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
 
-Des travaux plus récents ont également relié la coupe de cheveux robotique aux architectures vision-langage-action, en utilisant ce domaine comme cas concret pour discuter de l'intelligence système de plus haut niveau, de l'évaluation et des stratégies de déploiement ([Khan et Li, 2026c](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
+Des travaux plus récents ont également relié la coupe de cheveux robotique aux architectures vision-langage-action, en utilisant ce domaine comme cadre concret pour discuter de l'intelligence système de plus haut niveau, de l'évaluation et des stratégies de déploiement ([Khan et Li, 2026c](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
 
 ### Vidéos de coupe de cheveux robotique générées par IA
 
-À partir de la fin de l'année 2025, les outils vidéo génératifs d'IA ont alimenté une vague de vidéos fictives de coupe de cheveux robotique en ligne. On y voyait des coiffeurs humanoïdes, des stations multi-bras et des dispositifs automatiques de coupe sous forme de casque. Bien que fictifs, ces contenus ont accru l'attention du public et reflété l'intérêt croissant pour les soins personnels automatisés.
+À partir de la fin de 2025, les outils vidéo génératifs d'IA ont contribué à une vague de vidéos fictives de coupe de cheveux robotique en ligne. Ces vidéos mettaient en scène des coiffeurs humanoïdes, des stations multi-bras et des dispositifs automatiques de coupe sous forme de casque. Bien que fictifs, ces contenus ont accru l'attention du public et reflété l'intérêt croissant pour les soins personnels automatisés.
 
 ## Sécurité
 
@@ -56,7 +56,7 @@ La sécurité est un enjeu central de la coupe de cheveux robotique, car le robo
 
 Les mesures de sécurité proposées comprennent des limites d'espace de travail, des contraintes de vitesse et d'accélération, des seuils de force ou de pression, des mécanismes souples, des revêtements ou effecteurs terminaux souples, des fonctions d'arrêt d'urgence, la surveillance de proximité, une instrumentation redondante et l'interruption automatique en cas de situation dangereuse détectée.
 
-Il n'existe pas de norme internationale spécifique à la coupe de cheveux robotique. Toutefois, plusieurs normes existantes sont pertinentes pour l'analyse des risques et la conception des systèmes, notamment [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) et [ISO 14971](#ref-iso-14971). Les catégories de danger, les stratégies d'atténuation et la pertinence de ces normes pour une analyse des risques spécifique à la coupe de cheveux sont discutées dans [Shuai Li (2025)](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) ainsi que dans une [synthèse sur la sécurité de 2025](publications/2025/Safety_in_Robotic_Haircutting.pdf).
+Il n'existe pas de norme internationale spécifique à la coupe de cheveux robotique. Toutefois, plusieurs normes existantes fournissent des points de référence utiles pour l'analyse des risques et la conception des systèmes, notamment [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) et [ISO 14971](#ref-iso-14971). Les catégories de danger, les stratégies d'atténuation et la pertinence de ces normes pour une analyse des risques spécifique à la coupe de cheveux sont discutées dans [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) ainsi que dans une [synthèse sur la sécurité de 2025](../publications/2025/Safety_in_Robotic_Haircutting.pdf).
 
 ## Défis et directions de recherche
 
@@ -81,15 +81,15 @@ Ces défis suggèrent plusieurs directions prometteuses de recherche en coupe de
 
 ## Travail en cours
 
-En plus des publications rassemblées ici, notre groupe mène actuellement le travail d'implémentation en cours suivant lié à un système robotique de coupe de cheveux téléopéré à distance :
+En plus des publications rassemblées ici, l'équipe à l'origine de ce dépôt développe un système robotique de coupe de cheveux téléopéré à distance à travers le projet public suivant :
 
-- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour un système robotique de coupe de cheveux téléopéré à distance, prenant en charge la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes ; les contributions de toute personne intéressée par ce domaine sont les bienvenues.
+- [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour la coupe de cheveux robotique téléopérée à distance. Il prend en charge la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes. Les contributions de chercheurs et de développeurs intéressés par ce domaine sont les bienvenues.
 
-D'autres travaux en cours actuellement menés par notre groupe sont organisés dans [../ongoing-work/README.md](../ongoing-work/README.md).
+D'autres travaux en cours de cette équipe sont organisés dans [../ongoing-work/README.md](../ongoing-work/README.md).
 
 ## Projets de référence forkés
 
-Les projets open source forkés pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index a vocation à rester extensible comme référence pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotisée.
+Les projets open source forkés pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index sert de référence extensible pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotique.
 
 ## Références
 
@@ -101,7 +101,7 @@ Les projets open source forkés pertinents sont organisés par catégorie dans [
 - <a id="ref-dennler-2021"></a>Nathaniel Dennler, Eura Shin, Maja Mataric, and Stefanos Nikolaidis. *Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm*. IROS, 2021. [[link](https://doi.org/10.1109/IROS51168.2021.9636768)]
 - <a id="ref-yoo-2024"></a>Uksang Yoo et al. *MOE-Hair: Toward Soft and Compliant Contact-rich Hair Manipulation and Care*. HRI Companion, 2024. [[link](https://doi.org/10.1145/3610978.3640682)]
 - <a id="ref-kim-2025"></a>Soonhyo Kim et al. *Front Hair Styling Robot System Using Path Planning for Root-Centric Strand Adjustment*. SII, 2025. [[link](https://doi.org/10.1109/SII59315.2025.10871088)]
-- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)][[code](https://github.com/Dai0731csc/Digital-Salon.git)]
+- <a id="ref-he-2025-digital-salon"></a>Chengan He et al. *Digital Salon: An AI and Physics-Driven Tool for 3D Hair Grooming and Simulation*. arXiv:2507.07387, 2025. [[link](https://doi.org/10.48550/arXiv.2507.07387)][[code](https://github.com/Dai0731csc/Digital-Salon)]
 - <a id="ref-iso-13482"></a>ISO 13482. *Robots and robotic devices - Safety requirements for personal care robots*.
 - <a id="ref-iso-ts-15066"></a>ISO/TS 15066. *Robots and robotic devices - Collaborative robots*.
 - <a id="ref-iso-10218-1"></a>ISO 10218-1. *Robotics - Safety requirements for industrial robots - Part 1: Robots*.
@@ -109,16 +109,16 @@ Les projets open source forkés pertinents sont organisés par catégorie dans [
 
 ## Publications dans ce dépôt
 
-Les publications suivantes sont mentionnées dans les sections ci-dessus et rassemblées dans ce dépôt.
+Ce projet est dirigé à l'Université d'Oulu par le [professeur Shuai Li](https://www.oulu.fi/en/researchers/shuai-li) et se concentre actuellement sur la recherche en coupe de cheveux robotique. Les publications associées ont déjà été mentionnées dans les sections pertinentes ci-dessus et sont rassemblées dans ce dépôt. Elles sont listées ci-dessous.
 
 ### 2025
 
-- [Haircutting Robots](publications/2025/LiHaircutting%20Robots.pdf)
-- [Haircutting Robots from Theory to Practice](publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Safety in Robotic Haircutting](publications/2025/Safety_in_Robotic_Haircutting.pdf)
+- [Haircutting Robots](../publications/2025/Haircutting_Robots.pdf)
+- [Haircutting Robots from Theory to Practice](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
+- [Safety in Robotic Haircutting](../publications/2025/Safety_in_Robotic_Haircutting.pdf)
 
 ### 2026
 
-- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
-- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
-- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
+- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
+- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
+- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)

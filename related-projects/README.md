@@ -1,6 +1,6 @@
 # Related Open-Source Projects
 
-This directory organizes forked reference projects and other relevant open-source repositories by category. These repositories are not the core repositories of this project, but they provide useful technical context and supporting foundations for broader robotic haircutting research.
+This directory organizes forked reference projects and other relevant open-source repositories by category. These repositories are not primary outputs of this project, but they provide technical context and supporting foundations for broader robotic haircutting research.
 
 ## Categories
 
