@@ -2,7 +2,7 @@
 
 Kielet: [English](../README.md) | [中文](README.zh.md) | Suomi | [Deutsch](README.de.md) | [Français](README.fr.md)
 
-Tämä arkisto tarjoaa tietosanakirjamaisen yleiskatsauksen robottiseen hiustenleikkaukseen. Se kattaa alan taustan, historian, turvallisuusnäkökohdat, sovellukset, tekniset haasteet ja keskeiset viitteet. Aiheeseen liittyviin julkaisuihin viitataan tekstissä, ja ne on koottu tämän sivun loppuun.
+Tämä arkisto tarjoaa tietosanakirjamaisen yleiskatsauksen robottiseen hiustenleikkaukseen. Se kattaa alan taustan, historian, turvallisuusnäkökohdat, sovellukset, tekniset haasteet ja keskeiset viitteet. Aiheeseen liittyviin julkaisuihin viitataan tekstissä, ja ne on koottu tämän sivun loppuun. Arkisto sisältää myös projektin yleisesittelyn [Haircutting Robot Introduction Slides](../haircutting_robot_introduction.pdf) -esityskalvoissa, jotka käsittelevät motivaatiota, aiempaa tutkimusta, teknisiä vaatimuksia, turvallisuutta, mahdollistavia teknologioita ja tulevaisuuden näkymiä.
 
 ## Yleiskuva
 
@@ -86,6 +86,12 @@ Tähän arkistoon koottujen julkaisujen lisäksi tämän arkiston taustalla olev
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): asiakaspuolen järjestelmä etäohjattua teleoperoitua robottista hiustenleikkausta varten. Se tukee selainpohjaista havainnointia, kalibrointia, viestintää ja raakaa pose-suoratoistoa. Aiheesta kiinnostuneet tutkijat ja kehittäjät ovat tervetulleita osallistumaan.
 
 Tämän tiimin muut käynnissä olevat työt on koottu tiedostoon [../ongoing-work/README.md](../ongoing-work/README.md).
+
+## Opetus ja koulutus
+
+Tutkimusjulkaisujen ja toteutustyön lisäksi tämä arkisto kokoaa myös robottiseen hiustenleikkaukseen liittyviä opetus- ja koulutusmateriaaleja. Nämä resurssit on järjestetty tiedostoon [../education/README.md](../education/README.md).
+
+- [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf): kurssiprojektin suunnitteludokumentti opiskelijoiden koulutusta ja projektiosallistumista varten.
 
 ## Forkatut viiteprojektit
 

@@ -2,7 +2,7 @@
 
 Langues : [English](../README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | [Deutsch](README.de.md) | Français
 
-Ce dépôt propose une vue d'ensemble de type encyclopédique sur la coupe de cheveux robotique. Il couvre le contexte, l'histoire, les considérations de sécurité, les applications, les défis techniques et les principales références. Les publications pertinentes sont citées dans le texte et rassemblées à la fin de ce document.
+Ce dépôt propose une vue d'ensemble de type encyclopédique sur la coupe de cheveux robotique. Il couvre le contexte, l'histoire, les considérations de sécurité, les applications, les défis techniques et les principales références. Les publications pertinentes sont citées dans le texte et rassemblées à la fin de ce document. Une présentation générale du projet est également disponible dans [Haircutting Robot Introduction Slides](../haircutting_robot_introduction.pdf), qui couvre la motivation de la recherche, les travaux antérieurs, les exigences techniques, les questions de sécurité, les technologies habilitantes et les perspectives futures.
 
 ## Vue d'ensemble
 
@@ -86,6 +86,12 @@ En plus des publications rassemblées ici, l'équipe à l'origine de ce dépôt 
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour la coupe de cheveux robotique téléopérée à distance. Il prend en charge la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes. Les contributions de chercheurs et de développeurs intéressés par ce domaine sont les bienvenues.
 
 D'autres travaux en cours de cette équipe sont organisés dans [../ongoing-work/README.md](../ongoing-work/README.md).
+
+## Enseignement et formation
+
+En plus des publications de recherche et du travail d'implémentation, ce dépôt rassemble aussi des ressources d'enseignement et de formation liées à la coupe de cheveux robotique. Ces ressources sont organisées dans [../education/README.md](../education/README.md).
+
+- [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf) : un document de planification de projet de cours pour la formation des étudiants et leur participation au projet.
 
 ## Projets de référence forkés
 

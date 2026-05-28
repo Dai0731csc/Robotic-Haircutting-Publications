@@ -2,7 +2,7 @@
 
 Languages: English | [中文](/docs/README.zh.md) | [Suomi](/docs/README.fi.md) | [Deutsch](/docs/README.de.md) | [Français](/docs/README.fr.md)
 
-This repository provides an encyclopedia-style overview of robotic haircutting, including its background, history, safety considerations, applications, technical challenges, and key references. Relevant publications are cited throughout and collected at the end of this document.
+This repository provides an encyclopedia-style overview of robotic haircutting, including its background, history, safety considerations, applications, technical challenges, and key references. Relevant publications are cited throughout and collected at the end of this document. A general introduction to the project is also available in [Haircutting Robot Introduction Slides](haircutting_robot_introduction.pdf), which covers the research motivation, prior work, technical requirements, safety issues, enabling technologies, and future outlook.
 
 ## Overview
 
@@ -86,6 +86,12 @@ In addition to the publications collected here, the team behind this repository 
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): a client system for remote teleoperated robotic haircutting that supports browser-based perception, calibration, communication, and raw pose streaming. Contributions from researchers and developers interested in this area are welcome.
 
 Additional ongoing work from this team is organized in [ongoing-work/README.md](ongoing-work/README.md).
+
+## Education and Training
+
+In addition to research publications and implementation work, this repository also collects educational and training materials related to robotic haircutting. These resources are organized in [education/README.md](education/README.md).
+
+- [Capstone Weekly Planning 2026](education/Capstone%20Weekly%20Planning_2026.pdf): a course-project planning document for student training and project participation.
 
 ## Forked Reference Projects
 

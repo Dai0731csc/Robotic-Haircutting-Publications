@@ -2,7 +2,7 @@
 
 Sprachen: [English](../README.md) | [中文](README.zh.md) | [Suomi](README.fi.md) | Deutsch | [Français](README.fr.md)
 
-Dieses Repository bietet einen enzyklopädischen Überblick über robotisches Haareschneiden. Es behandelt Hintergrund, Geschichte, Sicherheitsaspekte, Anwendungen, technische Herausforderungen und zentrale Referenzen. Relevante Veröffentlichungen werden im Text zitiert und am Ende dieses Dokuments gesammelt.
+Dieses Repository bietet einen enzyklopädischen Überblick über robotisches Haareschneiden. Es behandelt Hintergrund, Geschichte, Sicherheitsaspekte, Anwendungen, technische Herausforderungen und zentrale Referenzen. Relevante Veröffentlichungen werden im Text zitiert und am Ende dieses Dokuments gesammelt. Eine allgemeine Einführung in das Projekt ist außerdem in den [Haircutting Robot Introduction Slides](../haircutting_robot_introduction.pdf) verfügbar, die Motivation, bisherige Forschung, technische Anforderungen, Sicherheit, unterstützende Technologien und den Ausblick behandeln.
 
 ## Überblick
 
@@ -86,6 +86,12 @@ Zusätzlich zu den hier gesammelten Veröffentlichungen entwickelt das Team hint
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für ferngesteuertes teleoperiertes robotisches Haareschneiden. Es unterstützt browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming. Beiträge von Forschenden und Entwicklern, die sich für dieses Thema interessieren, sind willkommen.
 
 Weitere laufende Arbeiten dieses Teams sind in [../ongoing-work/README.md](../ongoing-work/README.md) organisiert.
+
+## Bildung und Training
+
+Neben Forschungsarbeiten und Implementierungsprojekten sammelt dieses Repository auch Lehr- und Trainingsmaterialien zum robotischen Haareschneiden. Diese Ressourcen sind in [../education/README.md](../education/README.md) organisiert.
+
+- [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf): ein Kursprojekt-Planungsdokument für studentisches Training und Projektbeteiligung.
 
 ## Geforkte Referenzprojekte
 

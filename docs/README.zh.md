@@ -2,7 +2,7 @@
 
 语言: [English](../README.md) | 中文 | [Suomi](README.fi.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
 
-本仓库提供一个关于机器人理发的百科式概览，涵盖其背景、历史、安全考量、应用、技术挑战和关键参考文献。相关论文在正文中按需引用，并汇总于本文末尾。
+本仓库提供一个关于机器人理发的百科式概览，涵盖其背景、历史、安全考量、应用、技术挑战和关键参考文献。相关论文在正文中按需引用，并汇总于本文末尾。仓库同时提供一份用于项目整体介绍的演讲幻灯片 [Haircutting Robot Introduction Slides](../haircutting_robot_introduction.pdf)，内容涵盖研究动机、既有工作、技术需求、安全问题、支撑技术与未来展望。
 
 ## 概述
 
@@ -86,6 +86,12 @@
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR)：一个面向远程遥操作机器人理发的客户端系统，支持浏览器端感知、标定、通信与原始位姿流传输。欢迎对这一方向感兴趣的研究者和开发者参与贡献。
 
 本团队的其他持续性工作已整理在 [../ongoing-work/README.md](../ongoing-work/README.md) 中。
+
+## 教学与培训
+
+除研究论文和实现工作外，本仓库还收录了与机器人理发相关的教学与培训材料。这些内容已整理在 [../education/README.md](../education/README.md) 中。
+
+- [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf)：用于学生培训与项目参与的课程项目规划文档。
 
 ## Fork 的参考项目
 
