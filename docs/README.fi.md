@@ -93,6 +93,21 @@ Tutkimusjulkaisujen ja toteutustyön lisäksi tämä arkisto kokoaa myös robott
 
 - [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf): kurssiprojektin suunnitteludokumentti opiskelijoiden koulutusta ja projektiosallistumista varten.
 
+## Kysymyksiä ja vastauksia (Q&A)
+
+Yllä olevan yleiskatsauksen lisäksi tämä arkisto kokoaa robottiseen hiustenleikkaukseen liittyviä kysymys-vastausmateriaaleja hakemistoon [../Q&A/](../Q&A/).
+
+Aineisto kokoaa opiskelijoiden ja osallistujien vastaukset projektikyselyyn sekä tutkimustiimin lyhyet taustahuomautukset. Käsitellyt aiheet ovat muun muassa seuraavat:
+
+- kaupallistumisen näkymät ja käyttöönottoaikataulut
+- tekoäly ja havainnointi robottisessa hiustenleikkauksessa
+- mekaaninen rakenne, työkalut ja turvamekanismit
+- ohjaus, liikesuunnittelu ja trajektorioiden muodostus
+- markkinapotentiaali, käyttäjien luottamus ja jaettu autonomia
+- muut avoimet kysymykset ja jatkokeskustelu
+
+- [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): yllä olevia aiheita käsittelevä kysymys-vastauskokoelma.
+
 ## Forkatut viiteprojektit
 
 Tähän aihepiiriin liittyvät forkatut open-source-projektit on järjestetty luokittain tiedostossa [../related-projects/README.md](../related-projects/README.md). Tämä hakemisto toimii laajennettavana viitekokoelmana teknisistä perusteista, jotka liittyvät robottisen hiustenleikkauksen laajempaan tutkimukseen.

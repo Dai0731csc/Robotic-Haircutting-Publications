@@ -93,6 +93,21 @@ Neben Forschungsarbeiten und Implementierungsprojekten sammelt dieses Repository
 
 - [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf): ein Kursprojekt-Planungsdokument für studentisches Training und Projektbeteiligung.
 
+## Fragen und Antworten (Q&A)
+
+Neben der Übersicht oben sammelt dieses Repository Frage-und-Antwort-Materialien zum robotischen Haareschneiden im Verzeichnis [../Q&A/](../Q&A/).
+
+Die Materialien fassen Antworten von Studierenden und Teilnehmenden auf einen Projektfragebogen zusammen und enthalten kurze Hintergrundnotizen des Forschungsteams. Behandelte Themen sind unter anderem:
+
+- Kommerzialisierungsaussichten und Einführungszeitpläne
+- KI- und Wahrnehmungsunterstützung beim robotischen Haareschneiden
+- mechanische Struktur, Werkzeuge und Sicherheitsmechanismen
+- Steuerung, Bewegungsplanung und Trajektoriengenerierung
+- Marktpotenzial, Nutzervertrauen und Modelle geteilter Autonomie
+- weitere offene Fragen und Folgediskussion
+
+- [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): gesammelte Fragen und Antworten zu den genannten Themen.
+
 ## Geforkte Referenzprojekte
 
 Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz für technische Grundlagen im breiteren Forschungsumfeld des robotischen Haareschneidens.

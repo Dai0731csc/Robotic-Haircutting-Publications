@@ -93,6 +93,21 @@ En plus des publications de recherche et du travail d'implémentation, ce dépô
 
 - [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf) : un document de planification de projet de cours pour la formation des étudiants et leur participation au projet.
 
+## Questions et réponses (Q&A)
+
+En complément de la vue d'ensemble ci-dessus, ce dépôt rassemble des ressources de questions-réponses sur la coupe de cheveux robotique dans le répertoire [../Q&A/](../Q&A/).
+
+Ces documents regroupent les réponses d'étudiants et de participants à un questionnaire de projet, ainsi que de brèves notes de contexte de l'équipe de recherche. Les thèmes couverts comprennent notamment :
+
+- perspectives de commercialisation et calendriers de déploiement
+- soutien par l'IA et la perception pour la coupe robotique
+- structure mécanique, outils de coupe et mécanismes de sécurité
+- contrôle, planification de mouvement et génération de trajectoires
+- potentiel de marché, confiance des utilisateurs et modèles d'autonomie partagée
+- autres questions ouvertes et discussions de suivi
+
+- [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf) : compilation de questions et réponses sur les thèmes ci-dessus.
+
 ## Projets de référence forkés
 
 Les projets open source forkés pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index sert de référence extensible pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotique.

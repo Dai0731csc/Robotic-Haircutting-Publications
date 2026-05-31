@@ -93,6 +93,21 @@ In addition to research publications and implementation work, this repository al
 
 - [Capstone Weekly Planning 2026](education/Capstone%20Weekly%20Planning_2026.pdf): a course-project planning document for student training and project participation.
 
+## Q&A
+
+In addition to the overview sections above, this repository collects question-and-answer materials related to robotic haircutting. These resources are organized in the [Q&A](Q&A/) directory.
+
+The materials compile student and participant responses to a project questionnaire, together with brief background notes from the research team. Topics covered include:
+
+- Commercialization outlook and deployment timelines
+- AI and perception support for robotic haircutting
+- Mechanical structure, end-effectors, and safety mechanisms
+- Control, motion planning, and trajectory generation
+- Market potential, user trust, and shared-autonomy models
+- Other open questions and follow-up discussion
+
+- [Q & A about haircutting robots](Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): collected questions and answers on the topics above.
+
 ## Forked Reference Projects
 
 Relevant forked open-source projects are organized by category in [related-projects/README.md](related-projects/README.md). This index serves as an expandable reference to technical foundations relevant to broader robotic haircutting research.

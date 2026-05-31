@@ -93,6 +93,21 @@
 
 - [Capstone Weekly Planning 2026](../education/Capstone%20Weekly%20Planning_2026.pdf)：用于学生培训与项目参与的课程项目规划文档。
 
+## 问答（Q&A）
+
+除上文概述外，本仓库还收录与机器人理发相关的问答材料，整理于 [../Q&A/](../Q&A/) 目录。
+
+材料汇总了学生与参与者对项目问卷的回复，以及研究团队撰写的简要背景说明。涵盖主题包括：
+
+- 商业化前景与落地时间表
+- 机器人理发中的 AI 与感知支持
+- 机械结构、末端执行器与安全机制
+- 控制、运动规划与轨迹生成
+- 市场潜力、用户信任与共享自主模式
+- 其他开放问题与后续讨论
+
+- [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf)：上述主题的问答汇编。
+
 ## Fork 的参考项目
 
 与本方向相关的 fork 开源项目已按类别整理在 [../related-projects/README.md](../related-projects/README.md) 中。该索引可作为与更广泛机器人理发研究相关技术基础的可扩展参考。
