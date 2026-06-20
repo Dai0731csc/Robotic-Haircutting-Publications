@@ -108,9 +108,9 @@ The materials compile student and participant responses to a project questionnai
 
 - [Q & A about haircutting robots](Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): collected questions and answers on the topics above.
 
-## Forked Reference Projects
+## Related Projects and Tools
 
-Relevant forked open-source projects are organized by category in [related-projects/README.md](related-projects/README.md). This index serves as an expandable reference to technical foundations relevant to broader robotic haircutting research.
+Relevant reference projects and tools are organized by category in [related-projects/README.md](related-projects/README.md). This index serves as an expandable reference to technical foundations relevant to broader robotic haircutting research.
 
 ## References
 

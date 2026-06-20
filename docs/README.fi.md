@@ -108,9 +108,9 @@ Aineisto kokoaa opiskelijoiden ja osallistujien vastaukset projektikyselyyn sek�
 
 - [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): yllä olevia aiheita käsittelevä kysymys-vastauskokoelma.
 
-## Forkatut viiteprojektit
+## Aiheeseen liittyvät projektit ja työkalut
 
-Tähän aihepiiriin liittyvät forkatut open-source-projektit on järjestetty luokittain tiedostossa [../related-projects/README.md](../related-projects/README.md). Tämä hakemisto toimii laajennettavana viitekokoelmana teknisistä perusteista, jotka liittyvät robottisen hiustenleikkauksen laajempaan tutkimukseen.
+Tähän aihepiiriin liittyvät viiteprojektit ja työkalut on järjestetty luokittain tiedostossa [../related-projects/README.md](../related-projects/README.md). Tämä hakemisto toimii laajennettavana viitekokoelmana teknisistä perusteista, jotka liittyvät robottisen hiustenleikkauksen laajempaan tutkimukseen.
 
 ## Viitteet
 

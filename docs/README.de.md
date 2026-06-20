@@ -108,9 +108,9 @@ Die Materialien fassen Antworten von Studierenden und Teilnehmenden auf einen Pr
 
 - [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf): gesammelte Fragen und Antworten zu den genannten Themen.
 
-## Geforkte Referenzprojekte
+## Verwandte Projekte und Werkzeuge
 
-Relevante geforkte Open-Source-Projekte sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz für technische Grundlagen im breiteren Forschungsumfeld des robotischen Haareschneidens.
+Relevante Referenzprojekte und Werkzeuge sind nach Kategorien in [../related-projects/README.md](../related-projects/README.md) organisiert. Dieses Verzeichnis dient als erweiterbare Referenz für technische Grundlagen im breiteren Forschungsumfeld des robotischen Haareschneidens.
 
 ## Literaturhinweise
 

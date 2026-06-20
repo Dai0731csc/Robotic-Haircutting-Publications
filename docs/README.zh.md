@@ -108,9 +108,9 @@
 
 - [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf)：上述主题的问答汇编。
 
-## Fork 的参考项目
+## 相关项目与工具
 
-与本方向相关的 fork 开源项目已按类别整理在 [../related-projects/README.md](../related-projects/README.md) 中。该索引可作为与更广泛机器人理发研究相关技术基础的可扩展参考。
+与本方向相关的参考项目与工具已按类别整理在 [../related-projects/README.md](../related-projects/README.md) 中。该索引可作为与更广泛机器人理发研究相关技术基础的可扩展参考。
 
 ## 参考文献
 

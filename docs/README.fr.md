@@ -108,9 +108,9 @@ Ces documents regroupent les réponses d'étudiants et de participants à un que
 
 - [Q & A about haircutting robots](../Q&A/Q%20%26%20A%20about%20haircutting%20robots.pdf) : compilation de questions et réponses sur les thèmes ci-dessus.
 
-## Projets de référence forkés
+## Projets et outils associés
 
-Les projets open source forkés pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index sert de référence extensible pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotique.
+Les projets de référence et outils pertinents sont organisés par catégorie dans [../related-projects/README.md](../related-projects/README.md). Cet index sert de référence extensible pour les bases techniques utiles à la recherche plus large sur la coupe de cheveux robotique.
 
 ## Références
 
