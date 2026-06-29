@@ -44,6 +44,8 @@
 
 进入 2020 年代后，机器人理发开始被视为服务机器人和个人护理自动化中的一个独立研究主题。早期的专著和综述将理发描述为一个多学科工程问题，涉及感知、可变形物体建模、运动规划、控制、遥操作、人机交互和安全。这些工作也强调了在人体头部附近作业的困难，包括头发几何形态的不确定性、不同用户之间的差异，以及对紧密集成的感知-规划-控制流程的需求。同时，它们提出了更广泛的概念化视角，例如将机器人理发视为类似 CNC 的过程模型，或视为在关键区域周围带有安全约束的移动机器人覆盖任务（[Li，2025](../publications/2025/Haircutting_Robots.pdf)；[Shuai Li，2025](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)；[Khan 和 Li，2026a](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)；[Khan 和 Li，2026b](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)）。
 
+新近发表于 *International Journal of Systems Science* 的论文进一步从移动机器人视角讨论了机器人理发（[Huang、Khan 和 Li，2026](https://doi.org/10.1080/00207721.2026.2687894)）。
+
 较新的工作还将机器人理发与视觉-语言-动作架构联系起来，用这一领域作为讨论更高层次系统智能、评测和部署策略的具体场景（[Khan 和 Li，2026c](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)）。
 
 ### AI 生成的机器人理发视频
@@ -84,6 +86,16 @@
 除本仓库收录的论文外，本团队正在通过以下公开项目开发远程遥操作理发机器人系统：
 
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR)：一个面向远程遥操作机器人理发的客户端系统，支持浏览器端感知、标定、通信与原始位姿流传输。欢迎对这一方向感兴趣的研究者和开发者参与贡献。
+
+### 遥操作演示
+
+| 常规操作 | Rebase 操作 |
+| --- | --- |
+| ![常规遥操作演示](../ongoing-work/media/teleoperation/Normal.gif) | ![Rebase 遥操作演示](../ongoing-work/media/teleoperation/Rebase.gif) |
+
+| Safety governor | 急停 |
+| --- | --- |
+| ![Safety governor 遥操作演示](../ongoing-work/media/teleoperation/Safety_governor.gif) | ![急停遥操作演示](../ongoing-work/media/teleoperation/Emergency_stop.gif) |
 
 本团队的其他持续性工作已整理在 [../ongoing-work/README.md](../ongoing-work/README.md) 中。
 
@@ -140,6 +152,7 @@
 
 ### 2026
 
+- [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
 - [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
 - [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
 - [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)

@@ -44,6 +44,8 @@ Neben physischen Robotersystemen liefern auch digitale Werkzeuge zur Frisurenmod
 
 In den 2020er Jahren begann sich robotisches Haareschneiden als eigenes Forschungsthema in der Servicerobotik und persönlichen Pflegeautomatisierung herauszubilden. Frühe Monografien und Überblicksarbeiten beschrieben Haareschneiden als multidisziplinäres Ingenieurproblem, das Wahrnehmung, Modellierung deformierbarer Objekte, Bewegungsplanung, Regelung, Teleoperation, Mensch-Roboter-Interaktion und Sicherheit umfasst. Diese Arbeiten betonten zudem die Schwierigkeit des Arbeitens in Kopfnähe, einschließlich Unsicherheit in der Haargeometrie, Unterschiede zwischen Nutzern und des Bedarfs an eng integrierten Wahrnehmungs-Planungs-Regelungs-Pipelines. Gleichzeitig führten sie breitere konzeptionelle Perspektiven ein, etwa robotisches Haareschneiden als CNC-ähnlichen Prozess oder als Mobile-Robotics-artige Abdeckungsaufgabe mit Sicherheitsbeschränkungen in kritischen Bereichen ([Li, 2025](../publications/2025/Haircutting_Robots.pdf); [Shuai Li, 2025](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan und Li, 2026a](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan und Li, 2026b](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
 
+Ein neu in *International Journal of Systems Science* veröffentlichter Artikel entwickelt diese Mobile-Robotics-Perspektive auf Haareschneide-Roboter weiter ([Huang, Khan und Li, 2026](https://doi.org/10.1080/00207721.2026.2687894)).
+
 Neuere Arbeiten verknüpfen robotisches Haareschneiden außerdem mit Vision-Language-Action-Architekturen und verwenden das Feld als konkreten Rahmen zur Diskussion höherer Systemintelligenz, Evaluation und Einsatzstrategien ([Khan und Li, 2026c](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
 
 ### KI-generierte Videos zum robotischen Haareschneiden
@@ -84,6 +86,16 @@ Diese Herausforderungen weisen auf mehrere vielversprechende Forschungsrichtunge
 Zusätzlich zu den hier gesammelten Veröffentlichungen entwickelt das Team hinter diesem Repository über das folgende öffentliche Projekt ein ferngesteuertes teleoperiertes Haareschneide-Robotersystem:
 
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR): ein clientseitiges System für ferngesteuertes teleoperiertes robotisches Haareschneiden. Es unterstützt browserbasierte Wahrnehmung, Kalibrierung, Kommunikation und Raw-Pose-Streaming. Beiträge von Forschenden und Entwicklern, die sich für dieses Thema interessieren, sind willkommen.
+
+### Teleoperationsdemonstrationen
+
+| Normalbetrieb | Rebase-Betrieb |
+| --- | --- |
+| ![Demo der normalen Teleoperation](../ongoing-work/media/teleoperation/Normal.gif) | ![Demo der Rebase-Teleoperation](../ongoing-work/media/teleoperation/Rebase.gif) |
+
+| Sicherheits-Governor | Not-Aus |
+| --- | --- |
+| ![Demo des Sicherheits-Governors bei der Teleoperation](../ongoing-work/media/teleoperation/Safety_governor.gif) | ![Demo des Not-Aus bei der Teleoperation](../ongoing-work/media/teleoperation/Emergency_stop.gif) |
 
 Weitere laufende Arbeiten dieses Teams sind in [../ongoing-work/README.md](../ongoing-work/README.md) organisiert.
 
@@ -140,6 +152,7 @@ Dieses Projekt wird an der Universität Oulu von [Professor Shuai Li](https://ww
 
 ### 2026
 
+- [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
 - [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
 - [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
 - [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)

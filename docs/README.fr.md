@@ -44,6 +44,8 @@ Outre les systèmes robotiques physiques, les outils numériques de modélisatio
 
 Dans les années 2020, la coupe de cheveux robotique a commencé à être formulée comme un sujet de recherche distinct en robotique de service et en automatisation des soins personnels. Les premières monographies et études de synthèse ont décrit la coupe de cheveux comme un problème d'ingénierie multidisciplinaire impliquant perception, modélisation d'objets déformables, planification du mouvement, contrôle, téléopération, interaction humain-robot et sécurité. Ces travaux ont également souligné la difficulté d'opérer près de la tête humaine, notamment l'incertitude sur la géométrie des cheveux, la variabilité entre utilisateurs et la nécessité de pipelines étroitement intégrés de perception-planification-contrôle. Ils ont en même temps introduit des perspectives conceptuelles plus larges, par exemple la coupe de cheveux robotique comme un processus de type CNC ou comme une tâche de couverture inspirée de la robotique mobile avec contraintes de sécurité autour de régions critiques ([Li, 2025](../publications/2025/Haircutting_Robots.pdf); [Shuai Li, 2025](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf); [Khan et Li, 2026a](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf); [Khan et Li, 2026b](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)).
 
+Un article récemment publié dans *International Journal of Systems Science* développe davantage cette perspective de robotique mobile sur les robots de coupe de cheveux ([Huang, Khan et Li, 2026](https://doi.org/10.1080/00207721.2026.2687894)).
+
 Des travaux plus récents ont également relié la coupe de cheveux robotique aux architectures vision-langage-action, en utilisant ce domaine comme cadre concret pour discuter de l'intelligence système de plus haut niveau, de l'évaluation et des stratégies de déploiement ([Khan et Li, 2026c](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)).
 
 ### Vidéos de coupe de cheveux robotique générées par IA
@@ -84,6 +86,16 @@ Ces défis suggèrent plusieurs directions prometteuses de recherche en coupe de
 En plus des publications rassemblées ici, l'équipe à l'origine de ce dépôt développe un système robotique de coupe de cheveux téléopéré à distance à travers le projet public suivant :
 
 - [Client_RHCR](https://github.com/Dai0731csc/Client_RHCR) : un système côté client pour la coupe de cheveux robotique téléopérée à distance. Il prend en charge la perception dans le navigateur, l'étalonnage, la communication et le streaming de poses brutes. Les contributions de chercheurs et de développeurs intéressés par ce domaine sont les bienvenues.
+
+### Démonstrations de téléopération
+
+| Fonctionnement normal | Opération Rebase |
+| --- | --- |
+| ![Démonstration de téléopération en fonctionnement normal](../ongoing-work/media/teleoperation/Normal.gif) | ![Démonstration de téléopération Rebase](../ongoing-work/media/teleoperation/Rebase.gif) |
+
+| Superviseur de sécurité | Arrêt d'urgence |
+| --- | --- |
+| ![Démonstration du superviseur de sécurité en téléopération](../ongoing-work/media/teleoperation/Safety_governor.gif) | ![Démonstration d'arrêt d'urgence en téléopération](../ongoing-work/media/teleoperation/Emergency_stop.gif) |
 
 D'autres travaux en cours de cette équipe sont organisés dans [../ongoing-work/README.md](../ongoing-work/README.md).
 
@@ -140,6 +152,7 @@ Ce projet est dirigé à l'Université d'Oulu par le [professeur Shuai Li](https
 
 ### 2026
 
+- [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
 - [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
 - [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
 - [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
