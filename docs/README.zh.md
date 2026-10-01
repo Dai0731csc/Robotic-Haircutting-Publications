@@ -58,7 +58,7 @@
 
 常见的安全措施包括工作空间限制、速度和加速度约束、力或压力阈值、柔顺机构、软包覆或软末端执行器、急停功能、近距离监测、冗余传感，以及在检测到不安全状态时自动中断操作。
 
-目前尚不存在专门针对机器人理发的国际安全标准。不过，一些现有标准可为风险分析和系统设计提供有价值的参考，尤其包括 [ISO 13482](#ref-iso-13482)、[ISO/TS 15066](#ref-iso-ts-15066)、[ISO 10218-1](#ref-iso-10218-1) 和 [ISO 14971](#ref-iso-14971)。与机器人理发相关的危险类别、缓解策略以及这些标准对具体风险分析的意义，可参见 [Shuai Li（2025）](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) 和一篇 [2025 年安全综述](../publications/2025/Safety_in_Robotic_Haircutting.pdf)。
+目前尚不存在专门针对机器人理发的国际安全标准。不过，一些现有标准可为风险分析和系统设计提供有价值的参考，尤其包括 [ISO 13482](#ref-iso-13482)、[ISO/TS 15066](#ref-iso-ts-15066)、[ISO 10218-1](#ref-iso-10218-1) 和 [ISO 14971](#ref-iso-14971)。与机器人理发相关的危险类别、缓解策略以及这些标准对具体风险分析的意义，可参见 [Shuai Li（2025）](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) 和一篇 [2026 年安全综述](https://doi.org/10.1002/rob.70305)。
 
 ## 挑战与研究方向
 
@@ -148,11 +148,11 @@
 
 - [Haircutting Robots](../publications/2025/Haircutting_Robots.pdf)
 - [Haircutting Robots from Theory to Practice](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Safety in Robotic Haircutting](../publications/2025/Safety_in_Robotic_Haircutting.pdf)
 
 ### 2026
 
 - [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
+- [Safety in Robotic Haircutting](https://doi.org/10.1002/rob.70305)
 - [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
 - [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
 - [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)

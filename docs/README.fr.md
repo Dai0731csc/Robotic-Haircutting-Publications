@@ -58,7 +58,7 @@ La sécurité est un enjeu central de la coupe de cheveux robotique, car le robo
 
 Les mesures de sécurité proposées comprennent des limites d'espace de travail, des contraintes de vitesse et d'accélération, des seuils de force ou de pression, des mécanismes souples, des revêtements ou effecteurs terminaux souples, des fonctions d'arrêt d'urgence, la surveillance de proximité, une instrumentation redondante et l'interruption automatique en cas de situation dangereuse détectée.
 
-Il n'existe pas de norme internationale spécifique à la coupe de cheveux robotique. Toutefois, plusieurs normes existantes fournissent des points de référence utiles pour l'analyse des risques et la conception des systèmes, notamment [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) et [ISO 14971](#ref-iso-14971). Les catégories de danger, les stratégies d'atténuation et la pertinence de ces normes pour une analyse des risques spécifique à la coupe de cheveux sont discutées dans [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) ainsi que dans une [synthèse sur la sécurité de 2025](../publications/2025/Safety_in_Robotic_Haircutting.pdf).
+Il n'existe pas de norme internationale spécifique à la coupe de cheveux robotique. Toutefois, plusieurs normes existantes fournissent des points de référence utiles pour l'analyse des risques et la conception des systèmes, notamment [ISO 13482](#ref-iso-13482), [ISO/TS 15066](#ref-iso-ts-15066), [ISO 10218-1](#ref-iso-10218-1) et [ISO 14971](#ref-iso-14971). Les catégories de danger, les stratégies d'atténuation et la pertinence de ces normes pour une analyse des risques spécifique à la coupe de cheveux sont discutées dans [Shuai Li (2025)](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf) ainsi que dans une [synthèse sur la sécurité de 2026](https://doi.org/10.1002/rob.70305).
 
 ## Défis et directions de recherche
 
@@ -148,11 +148,11 @@ Ce projet est dirigé à l'Université d'Oulu par le [professeur Shuai Li](https
 
 - [Haircutting Robots](../publications/2025/Haircutting_Robots.pdf)
 - [Haircutting Robots from Theory to Practice](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
-- [Safety in Robotic Haircutting](../publications/2025/Safety_in_Robotic_Haircutting.pdf)
 
 ### 2026
 
 - [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
+- [Safety in Robotic Haircutting](https://doi.org/10.1002/rob.70305)
 - [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
 - [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
 - [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
