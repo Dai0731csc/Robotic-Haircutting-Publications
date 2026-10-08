@@ -89,11 +89,11 @@ En plus des publications rassemblées ici, l'équipe à l'origine de ce dépôt 
 
 ### Démonstrations de téléopération
 
-| Fonctionnement normal | Opération Rebase |
+| Fonctionnement normal [\[9\]](#team-publication-9) | Opération Rebase [\[9\]](#team-publication-9) |
 | --- | --- |
 | ![Démonstration de téléopération en fonctionnement normal](../ongoing-work/media/teleoperation/Normal.gif) | ![Démonstration de téléopération Rebase](../ongoing-work/media/teleoperation/Rebase.gif) |
 
-| Superviseur de sécurité | Arrêt d'urgence |
+| Superviseur de sécurité [\[8\]](#team-publication-8) | Arrêt d'urgence [\[9\]](#team-publication-9) |
 | --- | --- |
 | ![Démonstration du superviseur de sécurité en téléopération](../ongoing-work/media/teleoperation/Safety_governor.gif) | ![Démonstration d'arrêt d'urgence en téléopération](../ongoing-work/media/teleoperation/Emergency_stop.gif) |
 
@@ -146,13 +146,15 @@ Ce projet est dirigé à l'Université d'Oulu par le [professeur Shuai Li](https
 
 ### 2025
 
-- [Haircutting Robots](../publications/2025/Haircutting_Robots.pdf)
-- [Haircutting Robots from Theory to Practice](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf)
+- <a id="team-publication-1"></a>[1] S. Li, *Haircutting Robots*. Cham, Switzerland: Springer, 2025. DOI: [10.1007/978-3-031-84026-5](https://doi.org/10.1007/978-3-031-84026-5). [PDF](../publications/2025/Haircutting_Robots.pdf).
+- <a id="team-publication-2"></a>[2] S. Li, "Haircutting Robots: From Theory to Practice," *Automation*, vol. 6, no. 3, article 47, 2025. DOI: [10.3390/automation6030047](https://doi.org/10.3390/automation6030047). [PDF](../publications/2025/Haircutting_Robots_from__Theory_to_Practice.pdf).
 
 ### 2026
 
-- [Haircutting robots: a mobile robotics perspective](https://doi.org/10.1080/00207721.2026.2687894)
-- [Safety in Robotic Haircutting](https://doi.org/10.1002/rob.70305)
-- [CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf)
-- [Robotic Haircutting Systems: A Survey of Methods, Challenges and Hair Modeling Insights](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf)
-- [Vision-Language-Action Modules for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation and Future Direction](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf)
+- <a id="team-publication-3"></a>[3] A. T. Khan and S. Li, "Robotic Haircutting Systems: A Survey of Methods, Challenges, and Hair Modeling Insights," *IEEE Journal of Selected Areas in Sensors*, vol. 3, pp. 104–112, 2026. DOI: [10.1109/JSAS.2026.3654480](https://doi.org/10.1109/JSAS.2026.3654480). [PDF](../publications/2026/Robotic_Haircutting_Systems_A_Survey_of_Methods_Challenges_and_Hair_Modeling_Insights.pdf).
+- <a id="team-publication-4"></a>[4] A. T. Khan and S. Li, "CNC-Inspired Robotic Hair Cutting: A Comprehensive Survey on Precision Personal Care Automation," *Journal of Artificial Intelligence for Automation*, vol. 1, no. 1, article 2, 2026. DOI: [10.53941/jaia.2026.100002](https://doi.org/10.53941/jaia.2026.100002). [PDF](../publications/2026/CNC_Inspired_Robotic_Hair_Cutting_A_Comprehensive_Survey_on_Precision_Personal_Care_Automation.pdf).
+- <a id="team-publication-5"></a>[5] A. T. Khan and S. Li, "Vision-Language-Action Models for Intelligent Haircutting Robots: A Position Paper on Architectures, Evaluation, and Future Directions," ResearchGate, position paper, 2026. DOI: [10.13140/RG.2.2.30849.62563](https://doi.org/10.13140/RG.2.2.30849.62563). [PDF](../publications/2026/Vision_Language_Action_Modules_for_Intelligent_Haircutting_Robots__A_Position_Paper_on_Architectures_Evaluation_and_Future_Direction.pdf).
+- <a id="team-publication-6"></a>[6] Z. Huang, A. T. Khan, and S. Li, "Haircutting robots: a mobile robotics perspective," *International Journal of Systems Science*, pp. 1–20, 2026. DOI: [10.1080/00207721.2026.2687894](https://doi.org/10.1080/00207721.2026.2687894). [PDF](../publications/2026/Haircutting%20robots%20%20a%20mobile%20robotics%20perspective.pdf).
+- <a id="team-publication-7"></a>[7] Z. Huang, A. Vilkki, S. Li, and J. Röning, "Safety in Robotic Haircutting," *Journal of Field Robotics*, pp. 1–25, 2026. DOI: [10.1002/rob.70305](https://doi.org/10.1002/rob.70305). [PDF](../publications/2026/Safety_in_Robotic_Haircutting.pdf).
+- <a id="team-publication-8"></a>[8] Z. Huang, A. T. Khan, A. M. Mohammed, F. Lo Regio, J.-J. Torvinen, L. Angrisani, and S. Li, "A Safety Boundary Governor for Teleoperated Robotic Haircutting," conference submission, 2026. [PDF](../publications/2026/A%20Safety%20Boundary%20Governor%20for%20Teleoperated%20Robotic%20Haircutting.pdf).
+- <a id="team-publication-9"></a>[9] Z. Huang, A. Vilkki, J. Huang, B. Liao, C. Luo, L. Angrisani, and S. Li, "TeleHairing: A Teleoperation Baseline for Robotic Haircutting," *arXiv preprint*, arXiv:2610.07096, 2026. DOI: [10.48550/arXiv.2610.07096](https://doi.org/10.48550/arXiv.2610.07096). [PDF](../publications/2026/TeleHairing.pdf).
